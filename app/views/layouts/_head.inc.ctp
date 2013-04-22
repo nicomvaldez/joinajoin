@@ -1,0 +1,66 @@
+<?php
+	$this->Html->css('reset', null, array('inline' => false));
+	$this->Html->css('jquery.uploader', null, array('inline' => false));
+	$this->Html->css('jquery.autocomplete', null, array('inline' => false));
+	$this->Html->css('star.rating', null, array('inline' => false));
+	$this->Html->css('jquery-ui-1.8.12.custom', null, array('inline' => false));
+	$this->Html->css('colorbox', null, array('inline' => false));
+	$this->Html->css('960/960_24_col', null, array('inline' => false));
+	$this->Html->css('ui.slider.extras', null, array('inline' => false));
+	$this->Html->css('jquery.galleryview-3.0', null, array('inline' => false));
+	$this->Html->css('jquery.jtweet', null, array('inline' => false));
+	$this->Html->css('slickmap', null, array('inline' => false));
+	$this->Html->css('calendar', null, array('inline' => false));
+	$this->Html->css('main', null, array('inline' => false));
+	$this->Html->css('dp', null, array('inline' => false));
+	$this->Html->css('amenities', null, array('inline' => false));
+	$this->Html->css('flag', null, array('inline' => false));
+	$this->Html->css('tipsy', null, array('inline' => false));
+	$this->Html->css('timepicker', null, array('inline' => false));
+	$this->Html->css('style', null, array('inline' => false));
+	
+	$this->Javascript->codeBlock('var cfg = ' . $this->Javascript->object($js_vars_for_layout) , array('inline' => false));
+	$this->Javascript->link('libs/jquery', false);
+	$this->Javascript->link('libs/jquery.lazyload.mini', false);
+	$this->Javascript->link('libs/jquery.form', false);
+	$this->Javascript->link('libs/jquery.blockUI', false);
+	$this->Javascript->link('libs/jquery.livequery', false);
+	$this->Javascript->link('libs/jquery.metadata', false);
+	$this->Javascript->link('libs/jquery.cookie', false);
+	$this->Javascript->link('libs/jquery.uploader', false);
+	$this->Javascript->link('libs/AC_RunActiveContent', false);
+	$this->Javascript->link('libs/jquery.fuploader', false);
+	$this->Javascript->link('libs/jquery-ui-1.8.12.custom.min', false);
+	$this->Javascript->link('libs/jquery.autogeocomplete', false);
+	$this->Javascript->link('libs/jquery.simplyCountable', false);
+	$this->Javascript->link('libs/jquery.corner', false);
+	$this->Javascript->link('libs/jquery.flash', false);
+	$this->Javascript->link('libs/jquery.colorbox', false);
+	$this->Javascript->link('libs/jquery.overlabel', false);		
+	$this->Javascript->link('libs/jquery.easing.1.3', false);
+	$this->Javascript->link('libs/jquery.timers-1.2', false);
+	$this->Javascript->link('libs/jquery.galleryview-3.0', false);
+	$this->Javascript->link('libs/jquery.jtweet', false);
+	$this->Javascript->link('libs/jquery.ui.widget', false);
+	$this->Javascript->link('libs/wdCalendar_lang_US', false);
+	$this->Javascript->link('libs/datepicker_lang_US', false);
+	$this->Javascript->link('libs/jquery.calendar', false);
+	$this->Javascript->link('libs/selectToUISlider.jQuery', false);
+	$this->Javascript->link('libs/date.format', false);
+	$this->Javascript->link('libs/jquery.timepickr', false);
+	$this->Javascript->link('libs/jquery.datepick', false);
+	$this->Javascript->link('libs/jquery.cyclic-fade', false);
+	$this->Javascript->link('libs/jquery.datepick.ext', false);	
+	if ($this->request->params['controller'] == 'property_users' && $this->request->params['action'] == 'index' && $this->request->params['named']['type'] == 'myworks' && !empty($this->request->params['named']['status']) && $this->request->params['named']['status'] == 'waiting_for_acceptance') {
+		$this->Javascript->link('libs/jquery.datepicker', false);
+	}
+	$this->Javascript->link('libs/jquery.autogrowtextarea', false);
+	$this->Javascript->link('libs/jquery.tipsy', false);
+	$this->Javascript->link('libs/jquery-idleTimeout', false);
+	$this->Javascript->link('libs/guest-calendar', false);
+	$this->Javascript->link('libs/guest-list-calendar', false);
+	$this->Javascript->link('libs/markerclusterer.js', false);
+	$this->Javascript->link('libs/jquery.tablednd_0_5', false);
+	$this->Javascript->link('common', false);
+	$this->Javascript->link('libs/jquery.pjax', false);
+?>

@@ -1,0 +1,35 @@
+div.timepicker {
+	float:left;
+	position: relative;
+}
+ol.ui-timepickr {
+	width:54px;
+}
+ol.ui-timepickr + ol.ui-timepickr {
+	margin-left: 56px !important;
+	margin-top: -30px !important;
+}
+ol.ui-timepickr + ol.ui-timepickr + ol.ui-timepickr {
+	margin-left: 112px !important;
+	margin-top: -30px !important;
+}
+ol.ui-timepickr li.ui-timepickr {
+	float: left;
+	width: 27px;
+}
+ol.ui-timepickr li.ui-timepickr .ui-state-default {
+	padding:3px;
+	line-height:22px;
+	border:1px solid #ddd;
+	background:#fff;
+	cursor:pointer;
+	display:block;
+}
+div.timepicker input {
+	background:#fff;
+	border:1px solid #ddd;
+	padding:2px;
+}
+.ui-dropslide {
+	position: absolute;
+}

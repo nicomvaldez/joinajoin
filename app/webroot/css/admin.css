@@ -1,0 +1,1519 @@
+/* admin style is begin */
+/* common style is begin */
+div.admin-content {
+	color:#333;
+	line-height:130%;
+	font-size:90%;
+	font-family:verdana;
+}
+div.admin-content h1 {
+	margin:0.3% 0px 0px 0px;
+	padding:0px;
+}
+div.admin-content h1 a {
+	height:65px;
+	background:url(../img/logo.png) no-repeat left top;
+}
+address {
+	color:#4c4c4c;
+	font-style:normal;
+	font-size:11px;
+	margin:0 0 0 2px;
+}
+h2 {
+	color:#1e7ff4;
+	font-size:16px;
+	font-weight: bold;
+	padding: 13px 0 0;
+}
+h3 {
+	color: #1e7ff4;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 15px;
+	padding: 10px 0 0 5px;
+}
+h3.location-title {
+	color:#36404b;
+}
+div.setting-details-info h3 {
+	padding:1% 0px 1% 0%;
+	border:none;
+}
+div.setting-details-info h3 a {
+	font-size:100%;
+}
+h4 {
+	font-size:12px;
+	color:#6d6d6d;
+	font-weight:bold;
+	padding: 6px 0 0 15px;
+}
+h5 {
+	font-size:95%;
+	color:#00b5c8;
+	padding:0px 0 0 0px;
+}
+h5 a {
+	font-size:11px;
+}
+/*--- common classes - grouping selector ----*/
+div.admin-content h1 a, ul.admin-links li span, ul.admin-links li:hover div.admin-sub-block, ul.admin-links li div.admin-sub-block ul li a, span.system-flagged, span.flagged, span.suspended-user, span.suspended, div.admin-select-block div, div.status-info span, h2.chart-dashboard-title span.up-arrow, h2.chart-dashboard-title span.down-arrow, ul.filter-list a, table.list td.actions span.action-information-block, div.credentials-right a span, table.list td.actions div.action-block span.action-center-block, table.list td.actions div.action-block span.action-left-block, table.list td.actions span.action-info, table.list td.actions div.action-block:hover div.action-inner-block, table.list td.actions ul.action-link a, div.attachment-delete-outer-block ul li:hover span.delete-photo, span.property-status-info, address span, div.credentials-right a {
+	display:block;
+}
+.admin-content h2.change-pass, .hidden-info,.js .hide,ul.admin-links li div.admin-sub-block,div.action-inner-block,table.list td.actions div.action-block div.action-inner-block,div.attachment-delete-outer-block ul li span.delete-photo {
+	display:none;
+}
+ul.admin-links li div.admin-sub-block ul li.merchant-info a, ul.admin-links li div.admin-sub-block ul li.merchant-info span,div.admin-content h1 a,div.admin-select-block div {
+	display:inline;
+}
+div.admin-content h1 a,div.user-status-block span,h2.chart-dashboard-title span.up-arrow,table.list td.actions span.action-info,span.property-status-info,span.additional-guest-info{
+	text-indent:-99999em;
+}
+div.admin-content-block {
+	width:100%;
+	background:url(../img/admin-bg.png) repeat-x left top;
+	font-size:90%;
+	min-height:600px;
+}
+div.bgimg-input-block {
+	position:relative;
+}
+div.bg-img-subscription {
+	height: 60px;
+	left: 129px;
+	position: absolute;
+	top:-2px;
+	width: 60px;
+}
+div#header {
+	margin:0% 0% 0.5% 0%;
+}
+div.admin-content #header {
+	background:none;
+	position: relative;
+    z-index: 2;
+}
+.header-bottom-content {
+	margin-bottom: 15px;
+	padding: 6px 0 4px;
+}
+div#main {
+	font-size:83%;
+}
+table.list {
+	width:100%;
+	margin:0px;
+}
+table.list td, table.list th {
+	height:40px;
+}
+table.list tr:hover td.action-block, table.list td.action-block {
+	text-align:left;
+	background:#FFF9FB;
+	border-bottom:2px solid #ff89ad;
+	border-top:none;
+}
+.admin-container-24 div.dashboard-side2 {
+	width:20.833%;
+}
+/* menu style is begin */
+ul.admin-links {
+	margin: 0;
+	padding: 12px 0 0;
+}
+ul.admin-links > li {
+	float:left;
+	margin:0px 2% 0px 0px;
+	position:relative;
+	font-size:82%;
+	z-index:10000;
+}
+ul.admin-links li span {
+	cursor:pointer;
+	position:relative;
+	z-index:10000;
+	height:92px;
+}
+ul.admin-links li span.sub-link-info {
+	height:auto;
+	color:#ddd;
+	font-size:10px;
+	margin:0px 15px;
+}
+span.dashboard {
+    background: url("../img/admin-sprite.png") no-repeat center -1345px;
+}
+span.admin-users {
+    background: url("../img/admin-sprite.png") no-repeat center -5368px;
+}
+span.admin-properties {
+    background: url("../img/admin-sprite.png") no-repeat center -3724px;
+}
+span.admin-request {
+    background: url("../img/admin-sprite.png") no-repeat center -4119px;
+}
+span.admin-payments {
+    background: url("../img/admin-sprite.png") no-repeat center -7606px;
+}
+span.admin-affiliates {
+	background:url("../img/admin-sprite.png") no-repeat center -655px;
+}
+span.admin-settings {
+	background:url("../img/admin-sprite.png") no-repeat center -4884px;
+}
+span.admin-masters {
+    background: url("../img/admin-sprite.png") no-repeat center -2558px;
+}
+ul.admin-links >li span.amenu-right {
+	padding:0px 7px 0px 0;
+	margin:0px 0px 0px 6px;
+}
+ul.admin-links >li.active span.amenu-left {
+	background:url("../img/admin-sprite.png") no-repeat left -2095px;
+}
+ul.admin-links >li.active span.amenu-right {
+	background:url("../img/admin-sprite.png") no-repeat right -4281px;
+}
+ul.admin-links > li span.menu-center {
+	padding:56px 10px 0px 10px;
+	text-align:center;
+	height:auto;
+	font-size:11px;
+	color:#555;
+	font-weight:bold;
+}
+ul.admin-links>li:hover span.amenu-left, ul.admin-links>li.active:hover span.amenu-left {
+	background:url(../img/admin-sprite.png) no-repeat left -2289px;
+}
+ul.admin-links>li:hover span.amenu-right, ul.admin-links>li.active:hover span.amenu-right {
+	background:url(../img/admin-sprite.png) no-repeat right -4475px;
+}
+ul.admin-links li div.admin-sub-block {
+	position:absolute;
+	width:287%;
+	z-index:1;
+	margin-top:-1px;
+	width:205px;
+	background:url(../img/bg-menu.png) repeat right top;
+}
+ul.admin-links li.masters-block div.admin-sub-block {
+	width:384px;
+}
+ul.admin-links li.setting-masters-block div.admin-sub-block {
+	width:475px;
+}
+ul.admin-links li.setting-masters-block ul.admin-sub-links li.admin-sub-links-right {
+	width:206px;
+}
+ul.admin-links li.setting-masters-block ul.admin-sub-links li.admin-sub-links-left {
+	width:220px;
+}
+ul.admin-links li.setting-masters-block div.admin-sub-block ul ul, ul.admin-links li.masters-block div.admin-sub-block ul ul {
+	border:none;
+}
+ul.admin-sub-links li.admin-sub-links-left {
+	width:170px;
+	margin:0px 10px 0px 0px;
+	padding:0 10px 0 0;
+	border-right:1px solid #ddd;
+}
+ul.admin-sub-links li.admin-sub-links-right {
+	width:170px;
+}
+ul.admin-links li.no-bor div.admin-sub-block {
+	left: 0px;
+	top:83px;
+}
+ul.admin-links li.masters div.admin-sub-block {
+	right:-1px;
+	top:91px;
+}
+ul.admin-links li div.admin-sub-lblock {
+	background:url(../img/menu-left-repeat.png) repeat-y top left;
+}
+ul.admin-links li div.admin-sub-rblock {
+	background:url(../img/admin-menu-cr.png) repeat-y top right;
+}
+ul.admin-links li div.admin-sub-cblock {
+	background:#fff;
+	border-left:1px solid #c0c0c0;
+	margin-right:6px;
+	padding-left:15px;
+}
+ul.admin-links li div.admin-top-lblock {
+	border-left:1px solid #ccc;
+}
+ul.admin-links li div.admin-top-rblock {
+	background:url(../img/admin-sprite.png) no-repeat right -3185px;
+	border:0;
+}
+ul.admin-links li div.admin-top-cblock {
+	background:#FFFFFF;
+	border-top:1px solid #CCCCCC;
+	height:9px;
+	margin:0 10px 0 0;
+}
+ul.admin-links li div.admin-bot-lblock {
+	background:url(../img/admin-sprite.png) no-repeat left -2860px;
+}
+ul.admin-links li div.admin-bot-rblock {
+	background:url(../img/admin-sprite.png) no-repeat right -2973px;
+}
+ul.admin-links li div.admin-bot-cblock {
+	background:url(../img/admin-sprite.png) repeat-x right -2745px;
+	height:9px;
+	margin:0 10px;
+}
+ul.admin-links li div.admin-sub-block ul {
+	margin:0;
+	padding:0;
+}
+ul.admin-links li div.admin-sub-block ul h4.setting-title {
+	text-align:center;
+}
+ul.admin-links li div.admin-sub-block ul h4.master-title {
+	padding-top:10px;
+}
+ul.admin-links li div.admin-sub-block ul li a {
+	color: #0063dc;
+	font-size: 11px;
+	padding: 5px 0 5px 0;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview a {
+	padding:8px 10px 8px 25px;
+	background:url("../img/admin-sprite.png") no-repeat 0 -4830px;
+}
+ul.admin-links li div.admin-sub-block ul li.customize-subscription a {
+	background:url("../img/admin-sprite.png") no-repeat scroll -4px -1445px transparent;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview1 a {
+	font-size:13px;
+	font-weight:bold;
+	margin:0 10px 0 0;
+}
+ul.admin-links li div.admin-sub-block ul li.setting-overview a:hover {
+	background:url(../img/admin-sprite.png) no-repeat 0 -4830px;
+}
+ul.admin-links li div.admin-sub-block ul li.customize-subscription a:hover {
+	background:#f8437a url("../img/admin-sprite.png") no-repeat scroll -4px -1445px;
+}
+ul.admin-links li div.admin-sub-block ul li a:hover {
+	color:#ff0084;
+}
+ul.admin-menu {
+	width:auto;
+}
+ul.admin-menu>li {
+	float:left;
+	margin:4px 5px 0px 11px;
+}
+ul.admin-menu li a {
+	color:#b0b0b0;
+	font-size:11px;
+}
+ul.admin-menu li.view-site a, ul.admin-menu li.logout a, ul.admin-menu li:hover a, ul.admin-menu li.active a {
+	color:#fff;
+}
+ul.admin-menu li.view-site a:hover, ul.admin-menu li.logout a:hover {
+	color:#afafaf;
+}
+ul.admin-menu li.view-site {
+	margin:4px 18px 0px 11px;
+}
+ul.admin-dashboard-links li small {
+	font-size:9px;
+	line-height:14px;
+	margin:0px 0px 0px 4px;
+}
+div.admin-content form.language-form {
+	margin:0.5% 0px 3% 0px;
+}
+div.admin-content form.language-form label {
+	font-size:11px;
+}
+p.admin-welcome-info {
+	font-size:97%;
+	font-weight:bold;
+	padding-top:6px;
+}
+div.admin-content h1 a {
+	text-indent:1px;
+	background:none;
+	font-weight:bold;
+	height:auto;
+	width:auto;
+	color:#fefefe;
+}
+div.admin-content h1 a:hover {
+	color:#B0B0B0;
+}
+div.admin-content h1 a span {
+	font-weight:normal;
+	font-size:81%;
+	margin:0% 0% 0% 0.8%;
+}
+div.admin-content form.search-form {
+	width:100%;
+}
+div.admin-content div.add-block1 {
+	padding:13px 0% 0% 10px;
+}
+div.add-block {
+	text-align:right;
+	padding:10px 0;
+}
+div.admin-center-block {
+	background:#fff;
+	margin:0px 0px 10px 0px;
+}
+div.admin-side1-tl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -3697px;
+}
+div.admin-side1-tr {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -3816px;
+}
+div.admin-side1-tc {
+	background:url(../img/rounded-corner-sprite.png) repeat-x left -3945px;
+	height:39px;
+	margin:0px 4px;
+}
+div.page-count-block .paging-count {
+	padding:13px 0px 0% 0%;
+}
+div.paging-info-block .paging-count {
+	padding:0px 0px 0% 0%;
+}
+div.ui-tabs div.page-count-block .paging-count {
+	padding:13px 0px 0% 0%;
+}
+.paging-count {
+	font-size:80%;
+	padding:0% 0px 0% 0%;
+	white-space:nowrap;
+}
+div.dashboard-side2 h2 {
+	font-size:130%;
+	font-weight:bold;
+}
+ul.admin-dashboard-links {
+	margin:0.1% 0px 0px 2.5%;
+}
+ul.admin-dashboard-links li.version-info {
+	font-weight:bold;
+	font-size:98%;
+}
+ul.admin-dashboard-links li.version-info span {
+	font-weight:normal;
+}
+ul.admin-dashboard-links li {
+	background:url(../img/admin-sprite.png) no-repeat left -7948px;
+	padding:2% 0% 2% 4%;
+}
+div.admin-sub-block h4 {
+	font-size: 11px;
+	padding: 0 0 3px 0;
+}
+ul.setting-links {
+	margin:1% 0px 0px 2%;
+}
+ul.setting-links li {
+	border-bottom:1px solid #dddddd;
+	padding:1% 0% 1% 0%;
+	margin:0% 1% 0% 0%;
+	min-height:125px;
+}
+ul.setting-links li div.setting-details-info {
+	padding:0px 0px 31px 100px;
+	min-height:48px;
+}
+ul.setting-links li div.setting-details-info1 {
+	padding:0px 0px 31px 80px;
+}
+ul.setting-links li div.setting-category-1 {
+	background:url(../img/admin-sprite.png) no-repeat 24px -5084px;
+}
+ul.setting-links li div.setting-category-2 {
+	background:url(../img/admin-sprite.png) no-repeat 5px -1490px;
+}
+ul.setting-links li div.setting-category-3 {
+	background:url(../img/admin-sprite.png) no-repeat 6px -4663px;
+}
+ul.setting-links li div.setting-category-4 {
+	background:url(../img/admin-sprite.png) no-repeat 25px -3869px;
+}
+ul.setting-links li div.setting-category-5 {
+	background:url(../img/admin-sprite.png) no-repeat 14px 7px;
+}
+ul.setting-links li div.setting-category-6 {
+	background:url(../img/admin-sprite.png) no-repeat 21px -3453px;
+}
+ul.setting-links li div.setting-category-7 {
+	background:url(../img/admin-sprite.png) no-repeat 10px -6724px;
+}
+ul.setting-links li div.setting-category-8 {
+	background:url(../img/admin-sprite.png) no-repeat 15px -6389px;
+}
+ul.setting-links li div.setting-category-9 {
+	background:url(../img/admin-sprite.png) no-repeat 11px -6556px;
+}
+ul.setting-links li div.setting-category-10 {
+	background:url(../img/admin-sprite.png) no-repeat 26px -6004px;
+}
+ul.setting-links li div.setting-category-11 {
+	background:url(../img/admin-sprite.png) no-repeat 7px -6284px;
+}
+ul.setting-links li div.setting-category-12 {
+	background:url(../img/admin-sprite.png) no-repeat 17px -1932px;
+}
+ul.setting-links li div.setting-category-13 {
+	background:url(../img/admin-sprite.png) no-repeat 26px -6159px;
+}
+ul.setting-links li div.setting-category-14 {
+	background:url(../img/admin-sprite.png) no-repeat 20px -486px;
+}
+ul.setting-links li div.setting-category-15 {
+	background:url(../img/admin-sprite.png) no-repeat 18px -796px;
+}
+ul.setting-links li div.setting-category-16 {
+	background:url(../img/admin-sprite.png) no-repeat 23px -3290px;
+}
+ul.setting-links li div.Privacy {
+	background:url(../img/admin-sprite.png) no-repeat 5px -9605px;
+}
+ul.setting-links li div.payment-transaction-log {
+	background:url(../img/admin-sprite.png) no-repeat 6px -7136px;
+}
+ul.setting-links li div.mass-payment {
+	background:url(../img/admin-sprite.png) no-repeat 6px -6877px;
+}
+ul.setting-links li div.paypal-docapture {
+	background:url(../img/admin-sprite.png) no-repeat 7px -7265px;
+}
+ul.setting-links li div.authorizenet-docapture {
+	background:url(../img/admin-sprite.png) no-repeat 8px -7001px;
+	padding:0px 0px 31px 90px;
+}
+ul.setting-links li div.debug-error {
+	background:url(../img/admin-sprite.png) no-repeat 15px -7386px;
+}
+ul.setting-links li div.search-log {
+	background:url(../img/admin-sprite.png) no-repeat 15px -7501px;
+}
+ul.setting-links li:hover {
+	border-bottom:1px solid #dddddd;
+	background:#f4f9fc;
+}
+ul.setting-links li a {
+	font-size:95%;
+}
+div.admin-select-block {
+	padding:10px 0px 0px 0px;
+}
+form.search-form div.date-time {
+	width:182px;
+}
+form.search-form div.end-date-time-block {
+	width:187px;
+}
+form.normal div.send-money-paypal{
+	margin:0 0 0 185px;
+}
+form.normal div.send-money-paypal div.radio, form.normal div.send-money-paypal img{
+	padding:0 5px;
+}
+span.system-flagged, span.flagged, span.suspended-user {
+	color:#fff;
+	width:90px;
+	padding:2px;
+	margin:0px auto 5px auto;
+	white-space:nowrap;
+}
+table.list td.propertys-title-info span {
+	margin: 0 3px 0 0;
+	padding: 2px 4px;
+	vertical-align: baseline;
+}
+table.list td.propertys-title-info span.suspended-user {
+	margin:0px;
+}
+span.system-flagged {
+	background:#FF4500;
+}
+span.flagged {
+	background:#5F6CFF;
+}
+span.suspended, span.suspended-user {
+	background:#DC143C;
+}
+span.negotiable-user {
+	background:#DC1CCC;
+}
+span.suspended {
+	background:#CF9A0C none repeat scroll 0 0;
+	color:#FFFFFF;
+	width:101px;
+	margin:0 auto 5px;
+}
+/**footer style begin*/
+#footer {
+	font-size:11px;
+}
+#agriya {
+	border-top: 1px solid #C1C5C7;
+	margin: 25px auto 0;
+	padding: 10px 0;
+	float:none;
+	width:auto;
+}
+.powered span {
+	margin:0 2px;
+}
+form.normal div.billing-info-block div.checkbox input, form.normal div.billing-info-block div.date label+select, form.normal div.billing-info-block div.time label+select, form.normal div.billing-info-block div.datetime label+select {
+	margin:0px 5px 0px 202px;
+}
+form.normal div.textarea textarea.email-content {
+	height:300px;
+	width:530px;
+}
+dl.list dt, dl.list dd {
+	font-size: 98%;
+}
+form.normal div.admin-select-block div.select select {
+	padding: 3px 2px;
+	font-size:12px;
+	height:26px;
+	width:175px;
+	margin:0px 0 0 10px;
+}
+div.admin-select-block div {
+	float:left;
+}
+h4.language-text-block {
+	font-size:16px;
+	color:#1FA6C8;
+	padding:10px 0px 10px 20px;
+}
+div.submit-update-block {
+	margin:10px 0px 10px 500px;
+}
+form.setting-add-form .form-block {
+	margin:0px 0px 10px 0px;
+}
+form.normal div.js-company_profile_show div.textarea {
+	background:none;
+}
+form.normal div.radio input#AffiliateRequestIsApproved0 {
+	margin:0px 5px 0px 200px;
+}
+div.businesssuggestion-email {
+	white-space:nowrap;
+}
+ol.company-address-list li.no-address {
+	float:none;
+	width:auto;
+	padding:10px 10px 10px 26px;
+}
+ol.company-address-list li.no-address:hover {
+	background:url(../img/icon-list-warning.png) no-repeat 5px center;
+}
+div.affliates-submit-block {
+	margin:10px 0px 10px 47%;
+}
+div.widget-logo {
+	margin:10px 0px 10px 212px;
+}
+div.admin-content div.language-block {
+	width:95px;
+}
+h3.ui-accordion-header span {
+	font-weight:normal;
+	font-size:11px;
+}
+.ui-state-default .ui-icon {
+	background:url("../img/admin-sprite.png") no-repeat scroll 6px -10308px transparent;
+}
+div.outer-image-settings {
+	margin-top:25px;
+}
+div.outer-image-settings span.help {
+	margin:5px 0px 10px 178px;
+	width:400px;
+}
+div.translation-index-block {
+	margin:15px 0px 0px 0px;
+}
+div.translation-left-block {
+	width:316px;
+	margin:0px 20px 0px 187px;
+}
+div.translation-right-block {
+	width:344px;
+}
+div.translation-index-block span.info {
+	margin:0px;
+}
+div.translation-index-block div.submit {
+	margin:0px 30px 0px 0px;
+	float:left;
+}
+div.translation-right-block div.submit input[disabled="disabled"] {
+	color:#9f9f9f;
+	cursor:default !important;
+}
+div.translation-left-block span.info, div.translation-right-block span.info {
+	background:url("../img/info.png") no-repeat left top;
+	width:auto;
+}
+div.master-page-info {
+	margin:0px 10px 10px 0;
+	padding:10px 0px 10px 38px;
+}
+div.admin-content form.normal {
+	padding:0px 0px 0px 0px;
+	width:100%;
+}
+div.admin-content .forgot-info, div.admin-content .info-details {
+	margin:10px 0px;
+}
+div.admin-content table.list {
+	margin:9px 0px 0px 0px;
+}
+div.admin-content dl.list dt {
+	width:14%;
+}
+div.admin-content dl.list dd {
+	width:70%;
+}
+div.admin-content dl.budget-list dt {
+	width:59%;
+}
+div.admin-content dl.budget-list dd {
+	width:26%;
+}
+div.admin-content dl.edit-translation dt {
+	width:100px;
+}
+div.admin-content dl.edit-translation dd {
+	width:47px;
+}
+div.admin-content dl.edit-translation {
+	width:176px;
+}
+div.diagnostics-block {
+	margin:4px 0px 0px 0px;
+}
+form.normal table.list div.checkbox {
+	padding:5px 0px;
+}
+ul.transfer-list li {
+	float:left;
+	margin:13px 3px 0px 3px;
+	font-size:11px;
+}
+ul.transfer-list li a {
+	text-decoration:underline;
+}
+ul.transfer-list li a:hover {
+	text-decoration:none;
+}
+ul.transfer-list li.transfer-amount {
+	font-weight:normal;
+	color:#7F7F7F;
+}
+div.status-info span {
+	padding:1px;
+}
+div.user-info-block {
+	padding:0px 0px 5px 0px;
+}
+div.paypal-status-info span, div.user-status-block span, p.user-img-right span {
+	padding:1px 5px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-o-border-radius:3px;
+	font-size:9px;
+	line-height:13px;
+	margin:2px;
+}
+div.paypal-status-info span {
+	font-size: 10px;
+	line-height: 8px;
+	margin: 1px 3px 1px 0;
+}
+span.paypal {
+	background:url("../img/common-sprite.png") no-repeat left -12370px;
+	display:inline-block;
+	text-indent:-99999em;
+	font-size:0;
+	width: 38px;
+}
+p.user-img-right span.affiliate {
+	background:#9bc937;
+	color:#fff;
+}
+p.user-img-right span.active-city {
+	background:#1E9B0A;
+	color:#fff;
+}
+p.user-img-right span.admin {
+	background:#fff830;
+	color:#4c4c4c;
+}
+div.user-status-block span {
+	width:16px;
+	height:16px;
+	padding:0px;
+}
+div.user-status-block span.flags {
+	height:auto;
+	margin:5px 3px;
+	width:18px;
+	height:11px;
+}
+div.user-status-block span.iphone {
+	background:url(../img/common-sprite.png) no-repeat 0px -18083px;
+	width:11px;
+}
+div.user-status-block span.open_id {
+	background:url(../img/common-sprite.png) no-repeat 0px -17848px;
+}
+div.user-status-block span.gmail {
+	background:url(../img/common-sprite.png) no-repeat -1px -17966px;
+}
+div.user-status-block span.yahoo {
+	background:url(../img/common-sprite.png) no-repeat -2px -17613px;
+}
+div.user-status-block span.facebook {
+	background:url(../img/common-sprite.png) no-repeat -2px -17731px;
+}
+div.user-status-block span.twitter {
+	background:url(../img/common-sprite.png) no-repeat 0px -17496px;
+}
+div.user-status-block span.android {
+	background:url("../img/common-sprite.png") no-repeat scroll left -18189px;
+}
+div.user-status-block span.email {
+	text-indent:1px;
+	height:auto;
+	width:auto;
+	padding:1px 0px 3px 21px;
+}
+div.user-status-block span.email-comfirmed {
+	background:url(../img/common-sprite.png) no-repeat left -7908px;
+	color:#0063DC;
+}
+div.user-status-block span.email-not-comfirmed {
+	background:url(../img/common-sprite.png) no-repeat left -7963px;
+	color:#f88ec7;
+}
+table.list tr.inactive-record td {
+	color:#b7b7b7;
+	background:#FBF9FA;
+}
+table.list tr.inactive-record td a, table.list tr.inactive-record td span.email-not-comfirmed {
+	color:#b7b7b7;
+}
+table.list tr.inactive-record td span.email-not-comfirmed {
+	background:url(../img/common-sprite.png) no-repeat left -7963px;
+}
+div.chartiy-submit-block {
+	margin:15px 0px 15px 0px;
+}
+form.search-form div.autocompleteblock ul.ui-autocomplete {
+	left: 85px !important;
+	top: 36px !important;
+}
+div.pay-submit-block {
+	margin:15px 0px 0px 0px;
+}
+div.test-mode-content {
+	background:url(../img/text-separator.png) repeat-y 441px top;
+}
+/* admin stats style is begin */
+div.admin-dashboard-chart, div.admin-dashboard-edu-chart {
+	width:100%;
+	height:375px;
+}
+div.admin-dashboard-edu-chart {
+	height:400px;
+}
+div.page-title-info h2, h2.ribbon-title {
+	padding: 12px 0 10px 30px;
+}
+h2.chart-dashboard-title {
+	position:relative;
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -8291px transparent;
+}
+h2.users-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -5242px transparent;
+}
+h2.properties-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -3606px transparent;
+}
+h2.requests-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -4016px transparent;
+}
+h2.payment-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -7692px transparent;
+}
+h2.partners-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -360px transparent;
+}
+h2.settings-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -4825px transparent;
+}
+h2.master-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -2470px transparent;
+}
+h2.diagnostics-title {
+	background: url("../img/admin-sprite.png") no-repeat scroll 3px -8391px transparent;
+}
+h2.chart-dashboard-title span.up-arrow, h2.chart-dashboard-title span.down-arrow {
+	cursor:pointer;
+	height:36px;
+	width:98%;
+	margin:1px 10px;
+	left:0px;
+	top:0px;
+	position:absolute;
+}
+#companies-dashboard h2.chart-dashboard-title span {
+	margin:2px 10px 1px 10px;
+}
+h2.chart-dashboard-title span.up-arrow {
+	background: url("../img/admin-sprite.png") no-repeat scroll right -7738px;
+}
+h2.chart-dashboard-title span.down-arrow {
+	background:transparent url(../img/admin-sprite.png) no-repeat right -7825px;
+}
+div.company-dashboard-user-chart {
+	width:100%;
+}
+div.company-dashboard-edu-chart {
+	height:420px;
+}
+div.admin-stats-block {
+	margin:0px 0px 5px 0px;
+}
+div.dashboard-center-block .language-form div.select select {
+	width: 102px;
+}
+/* filter list style is begin */
+ul.filter-list li {
+	float:left;
+	margin:4px 5px 6px;
+}
+ul.filter-list a {
+	padding:1px 3px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-o-border-radius:3px;
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+}
+ul.filter-list a:hover {
+	color:#EFF0F2;
+}
+li.filter-admin a:hover, li.filter-all a:hover {
+	color:#3F3E3E;
+}
+.filter-active a {
+	background:#0E910E;
+}
+.filter-inactive a {
+	background:#DF5958;
+}
+.filter-openid a {
+	background:#AAA8A5;
+}
+.filter-facebook a {
+	background:#3B5998;
+}
+.filter-twitte a {
+	background:#53D4FF;
+}
+.filter-foursquare a {
+	background:#AC379B;
+}
+.filter-gmail a {
+	background:#2A91C9;
+}
+.filter-yahoo a {
+	background:#7B0099;
+}
+.filter-iphone a {
+	background:#727170;
+}
+.filter-affiliate a {
+	background:#9BC937;
+}
+li.all a {
+	background:#fff;
+	border:1px solid #ddd;
+	color:#000;
+}
+li.all a:hover {
+	color:#333;
+}
+li.gifted a {
+	background:#C575D2;
+}
+li.received a {
+	background:#00B0C7;
+}
+li.filter-admin a {
+	background:#FFF830;
+	color:#000;
+}
+.filter-android a {
+	background:#65AD89;
+}
+.filter-giftcard a {
+	background:#B56414;
+}
+.filter-giftcard a {
+	background:#B56414;
+}
+.filter-online a {
+	background:#24D624;
+}
+.filter-offline a {
+	background:#676867;
+}
+li.filter-all a {
+	border:1px solid #DEDEDE;
+	color:#000;
+}
+div.filter-list-info {
+	margin: 85px 10px 0px 0px;
+}
+/* Language form styles */
+div.language-block {
+	margin:1px 10px 0px 0px;
+}
+.language-form div.input {
+	float:left;
+}
+.language-form label {
+	padding:0 10px 0 0;
+	color:#333;
+	font-weight:normal;
+	font-size:12px;
+}
+.language-form div.select select {
+	width:90px;
+}
+.language-form div.select select:hover {
+	border:1px solid #ddd;
+}
+/** search form styles */
+form.search-form {
+	padding:10px 0px;
+}
+form.search-form div.input, form.search-form div.select {
+	float:left;
+	min-height:35px;
+	margin:0px;
+	padding:0px;
+	width:235px;
+}
+form.search-form div.date {
+	width:250px;
+}
+form.search-form div.submit {
+	float:left;
+	width:auto;
+	margin:10px 5px 0px 0px;
+	height:26px;
+}
+form.search-form div.submit input {
+	margin:0px;
+	float:left;
+	padding:0 10px 3px 3px;
+	font-size:12px;
+	height:26px;
+}
+form.search-form div.select select, form.search-form div.text input {
+	width:150px;
+	margin:9px 0px 0px 78px;
+	padding:4px 0px 4px 0px;
+	font-family:verdana;
+}
+div.admin-inner-top form.search-form div.select {
+	width:180px;
+}
+div.admin-inner-top form.search-form div.select select {
+	height:26px;
+	margin-top:9px;
+}
+form.search-form div.date label+select {
+	width:100px;
+}
+form.search-form div.date label+select {
+	margin:0px;
+}
+form.search-form div.input label {
+	width:60px;
+	position:absolute;
+	margin:12px 0px 0px 0px;
+	font-weight:normal;
+	text-align:right;
+	color:#7f7f7f;
+	font-size:11px;
+}
+form.search-form div.date-time label {
+	text-align:left;
+}
+form.search-form div.date select#Transaction_fromDay, form.search-form div.date select#Transaction_toDay {
+	width:40px;
+}
+form.search-form div.date select#Transaction_fromYear, form.search-form div.date select#Transaction_toYear {
+	width:55px;
+}
+form.search-form div.text {
+	width:240px;
+	margin:0px 0px 0px 8px;
+}
+form.search-form div.mapblock-info {
+	float:left;
+}
+form.search-form div.submit-block {
+	margin: 0px 0px 5px 0px;
+}
+form.search-form div.submit {
+	background:url("../img/admin-sprite.png") no-repeat scroll left -8056px transparent;
+}
+form.search-form div.submit:hover {
+	background:url("../img/admin-sprite.png") no-repeat scroll left -8083px transparent;
+}
+form.search-form div.submit input {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -8148px transparent;
+}
+form.search-form div.submit:hover input {
+	background:url("../img/admin-sprite.png") no-repeat scroll right -8175px transparent;
+}
+div.admin-content div.language-block {
+	width:95px;
+	margin: 1px 1px 0 0;
+}
+div.admin-content div.language-block + div.language-block {
+	width:170px;
+}
+div.admin-content ul.ui-tabs-nav {
+	background:#F5F5F5;
+	border:1px solid #ddd;
+}
+div.admin-content div.ui-widget-content {
+	border:1px solid #ddd;
+}
+div.admin-content p.paging-counter {
+	padding:14px 30px 14px 5px;
+	font-size:11px;
+}
+/* action link style is begin */
+table.list td.actions span.action-information-block {
+	height:47px;
+	width:52px;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+table.list td.actions div.action-block span.action-center-block {
+	padding:5px 0 6px;
+	margin:0px;
+}
+table.list td.actions div.action-block:hover span.action-center-block {
+	position:relative;
+	z-index:10000;
+}
+table.list td.actions div.action-block span.action-left-block {
+	height:9px;
+	margin:0;
+}
+table.list td.actions div.action-block:hover span.action-left-block {
+	background:transparent url("../img/admin-sprite.png") no-repeat -0px -5690px;
+}
+table.list td.actions div.action-block:hover span.action-center-block {
+	background:transparent url("../img/admin-action-center.png") repeat-y left top;
+}
+table.list td.actions span.action-info {
+	width:35px;
+	height:24px;
+	background:transparent url("../img/admin-sprite.png") no-repeat left -5538px;
+	margin:0px auto;
+	z-index:10000;
+}
+table.list td.actions div.action-block div.action-inner-block {
+	position:absolute;
+	width:300px;
+	z-index:1000;
+	background:url("../img/bg-menu.png") repeat right top;
+}
+table.list td.actions div.action-block div.action-inner-left-block {
+	background:transparent url("../img/admin-action-c1.png") repeat-y left top;
+	padding:0px 0px 10px 0px;
+}
+table.list td.actions div.action-block div.action-bottom-block {
+	background:transparent url("../img/admin-sprite.png") no-repeat 0px -5630px;
+	height:7px;
+	width:300px;
+}
+table.list td.actions div.action-block ul.action-link {
+	border-top:1px solid #ff6191;
+	padding:10px 0px 0px 0px;
+	margin:0px 6px 0px 0px;
+}
+table.list td.actions ul.action-link li {
+	float:left;
+	width:133px;
+	text-align:left;
+	padding:4px 4px 4px 9px;
+	min-height:21px;
+}
+table.list td.actions ul.action-link a {
+	border:1px solid #fff;
+	padding:3px 0px 3px 24px;
+}
+table.list td.actions ul.action-link a:hover {
+	border:1px solid #feb0c8;
+}
+/* attachment block style start*/
+
+div.attachment-delete-outer-block {
+	padding-bottom:10px;
+}
+div.attachment-delete-outer-block ul li {
+	border: 1px solid #DDDDDD;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	position: relative;
+	width: 162px;
+}
+div.attachment-delete-outer-block ul li div.checkbox input {
+	margin: 0;
+}
+div.attachment-delete-outer-block ul li span.delete-photo {
+	font-size: 11px;
+	position: absolute;
+	right: 5px;
+	top: 13px;
+	color:#000;
+}
+.pptab-menu-left {
+	margin:0;
+}
+.pptview-mblock-mm {
+	margin: 0 13px;
+	padding:15px 0 2px;
+}
+/* attachment block style end */
+/*  dashbrad round corner style is begin */
+div.chart-half-section {
+	margin: 10px 0.5% 4px 0.6%;
+	width: 48.8%;
+}
+div.dashboard-tl {
+	background:transparent url("../img/admin-sprite.png") no-repeat 0 -5817px;
+}
+div.dashboard-tr {
+	background:transparent url("../img/admin-sprite.png") no-repeat right -5826px;
+}
+div.dashboard-tc {
+	background:transparent url("../img/admin-sprite.png") repeat-x left -5771px;
+	height:9px;
+	margin:0px 11px;
+}
+div.dashboard-cl {
+	background:url("../img/dashboard-cl.png") repeat-y left top;
+}
+div.dashboard-cr {
+	background:url("../img/dashboard-cr.png") repeat-y right top;
+}
+div.dashboard-cc {
+	background:#fff;
+	margin:0px 9px;
+}
+div.dashboard-bl {
+	background: url("../img/admin-sprite.png") no-repeat left -5851px;
+}
+div.dashboard-br {
+	background: url("../img/admin-sprite.png") no-repeat right -5877px;
+}
+div.dashboard-bc {
+	background:transparent url("../img/admin-sprite.png") repeat-x left -5790px;
+	height:17px;
+	margin:0px 95px;
+}
+div.admin-content form.language-form {
+	margin: 0.5% 0 3%;
+}
+div.main-inner {
+	background:#fff;
+	border:1px solid #ddd;
+	border-top:1px solid #fff;
+	padding:0 10px;
+}
+div.properties-title-details {
+	display:inline-block;
+}
+ul.project-guideline-block {
+	width: 710px;
+}
+span.property-status-info {
+	height: 10px;
+	width: 10px;
+	margin: 4px 2px 0;
+    padding: 0;
+}
+div.configration-details h4 {
+	padding:0 0 0 4px;
+}
+div.credentials-right-block {
+	width: auto;
+}
+/* Third Party API style */
+div.credentials-info-block {
+	margin: 20px 0 0;
+}
+div.credentials-left {
+	background: url("../img/admin-sprite.png") no-repeat scroll left -8523px transparent;
+	margin: 5px 10px 0 0;
+	width: 185px;
+}
+div.credentials-right {
+	background: url("../img/admin-sprite.png") no-repeat scroll right -8603px transparent;
+	height: 31px;
+	margin: 0 0 0 6px;
+	padding: 11px 0 25px;
+}
+div.credentials-right a.facebook-link {
+	background: url("../img/admin-sprite.png") no-repeat scroll left -8750px transparent;
+}
+div.credentials-right a.twitter-link {
+	background: url("../img/admin-sprite.png") no-repeat scroll left -8850px transparent;
+}
+div.credentials-right a {
+	font-size: 12px;
+	font-weight: 700;
+	height: 32px;
+	padding: 0 0 0 40px;
+}
+div.credentials-right a span {
+	margin: 0;
+	padding: 0;
+}
+form.normal div.text input.disabled:focus, form.normal div.text input.disabled:hover, form.normal div.text input.disabled {
+	background: none repeat scroll 0 0 #F1F1F1;
+	border: 1px solid #F1F1F1;
+	color: #C5C4C4;
+}
+/* Third Party API style end */
+form.normal div.outer-image-settings div.input {
+	float: left;
+	width: 417px;
+}
+div.userprofiles-form div.side1 {
+	width:auto;
+}
+div.action-right-block div.city-action dl.request-list1 dd.not-available {
+	padding:5px 0;
+	width:55%;
+}
+div.action-right-block div.city-action dl dt {
+	font-size:10px;
+}
+span.additional-guest-info {
+	display:inline-block;
+	background:url("../img/common-sprite.png") no-repeat scroll left -10855px transparent;
+	height:16px;
+	width:16px;
+	position:absolute;
+	bottom: 5px;
+	right: -11px;
+}
+dl.price-list {
+	position:relative;
+}
+div.properties-add {
+	min-height:600px;
+}
+p.paypal-user{
+	font-weight:bold;
+	padding: 0 0 0 5px;
+}
+p.paypal-user span{
+	font-weight:normal;
+}
+div.send-money-view-block{
+	border-bottom:1px dashed #ccc;
+	padding-bottom:10px;
+}
+/*page overrights class*/
+div#settings-admin_index ul.setting-links li div.payment-transaction-log {
+	background:url(../img/admin-sprite.png) no-repeat 6px -3455px;
+}
+div#transactions-admin_index form.search-form div.submit {
+	margin:5px 5px 0px 0px;
+}
+div#transactions-admin_index .time-desc {
+	margin:8px 0px 0px 52px;
+}
+div#transactions-admin_index div.end-date-time-block .time-desc {
+	margin:8px 0px 0px 44px;
+}
+form#TransactionAdminIndexForm div.date-time-block {
+	float:left;
+	margin:0.1% 0px 0px 0px;
+	z-index:0;
+	position:static;
+}
+form#TransactionAdminIndexForm div.mapblock-info {
+	float:left;
+}
+form#TransactionAdminIndexForm div.mapblock-info div.autocompleteblock ul.ui-autocomplete {
+	left:8px !important;
+}
+form#CurrencyEditForm table.list div.text input {
+	margin:0px 0px 0px 0px;
+}
+form#SettingEditForm div.radio label + input {
+	margin:0;
+}
+#translations-admin_manage dl.list dt {
+	font-weight:bold;
+}
+form#TransactionAdminIndexForm div.date-time-block div.end-date-time-block {
+	z-index:0;
+}
+form.normal div.admin-select-block div.select, div.view-info-right-block h3 {
+	padding:0px;
+	margin:0px;
+}
+div#email_templates-admin_index .ui-accordion .ui-accordion-header {
+	z-index:0;
+}
+div#email_templates-admin_index .ui-accordion .ui-state-active {
+	background:#77B931;
+}
+div#email_templates-admin_index .ui-accordion .ui-state-active a {
+	color:#fff;
+}
+form#TranslationManageForm table.list td, form#TranslationManageForm table.list th {
+	text-align:left;
+}
+form#TranslationManageForm table.list div.textarea textarea {
+	margin:0px;
+}
+div#affiliate_requests-admin_add span.label-content-radio {
+	margin:4px 0px 0px 25px;
+}
+div#currencies-admin_edit table.list th, div#currencies-admin_edit table.list td {
+	text-align:left;
+}
+div#pages-refer_a_friend h3 {
+	padding:1% 0px 0.8% 0px;
+}
+div#mail_chimp_lists-admin_index table.list div.text input {
+	margin:0px 5px 0px 0px;
+}
+div#mail_chimp_lists-admin_index table.list div.text {
+	padding:0px;
+	margin:0px;
+}
+div#mail_chimp_lists-admin_index div.submit-block {
+	margin:10px 0px 10px 283px;
+}
+div#companies-admin_merchant_stats div.chart-half-section {
+	width:48.8%;
+	margin:4px 5px;
+}
+div#companies-admin_merchant_stats div.chart-half-section div.highcharts-container {
+	text-align:center !important;
+	width:99% !important;
+}
+div#deals-admin_deal_stats table.list {
+	width:98.4%;
+	margin:9px auto;
+}
+div#companies-admin_merchant_stats table.list {
+	width:99%;
+	margin:9px auto;
+}
+form#DealUpdateForm table.list td.select, form#DealUpdateForm table.list th.select {
+	width:23px;
+}
+div#cities-admin_index ul.action-link {
+	line-height:13px;
+}
+table.list td.propertys-title-info span, table.list td.propertys-title-info span{
+	-moz-border-radius:1px;
+	padding:0;
+}
+form#AffiliateTypeEditForm div.input input {
+	margin:0;
+}
+form#AffiliateTypeEditForm div.select select {
+	margin:0px;
+	width:164px;
+}
+form#TransactionAdminIndexForm div.input label {
+	width:31px;
+}
+form#TransactionAdminIndexForm div.date-time-block div.input label {
+	position: static;
+	width: 75px;
+	padding-left:10px;
+}
+form#TransactionAdminIndexForm div.text {
+	width:176px;
+}
+form#TransactionAdminIndexForm div.text input {
+	margin:9px 0px 0px 54px;
+	width:117px;
+}
+form#CharityPayToUserForm div.textarea textarea, form#CharityPayToUserForm div.text input, form#CharityPayToUserForm div.select select, form#AffiliateCashWithdrawalPayToUserForm div.select select, form#AffiliateCashWithdrawalPayToUserForm div.textarea textarea, form#UserCashWithdrawalPayToUserForm div.textarea textarea, form#UserCashWithdrawalPayToUserForm div.select select {
+	margin:0px;
+}
+form#SettingEditForm div.text input.disabled:focus, form#SettingEditForm div.text input.disabled:hover, form#SettingEditForm div.text input.disabled {
+	border: 1px solid #F1F1F1;
+}
+table.list div.action-right-block div.city-action dl dd span {
+    padding: 2px 1px;
+}
+.picker-img{
+	float:left;
+}
+#UserUpdateForm div.action-info-block {
+	padding-bottom:5px;
+}
+/*Debug & Error Log style*/
+h3.error-log-title {
+	background:#F5F5F5;
+	border-bottom: 1px solid #DDDDDD;
+	border-top: 1px solid #ECECEC;
+	margin: 0 0 10px;
+	padding: 10px 0 5px 10px;
+}
+div.clear-log h4 {
+	float:left;
+	padding: 6px 0 0;
+}
+div.clear-log a {
+	background: url("../img/common-sprite.png") no-repeat scroll left -13915px transparent;
+	float: right;
+	margin:6px 0 5px;
+	padding: 0 0 0 20px;
+}
+div.clear-log textarea {
+	width:100%;
+}
+/*Debug & Error Log style end*/
+/* ie7 hacks */
+*+html table.list td.actions div.action-block div.action-inner-block {
+	margin:0px 0px 0px -36px;
+}
+*+html div.action-right-block div.city-action dl.request-list1 dd.not-available{
+	width:60%;
+}

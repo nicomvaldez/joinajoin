@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #f1f1f1;
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+}
+input[type="text"],input[type="button"],select{
+	padding: 7px;
+	border-radius: 2px;
+	border: solid 1px #ccc;
+	background: #fff;
+	color: #000;
+}
+	input[type="text"]:focus,input[type="text"]:active,input[type="text"]:hover,
+	input[type="button"]:focus,input[type="button"]:active,input[type="button"]:hover,
+	select:focus,select:active,select:hover{
+		border-color: #777;
+	}
+h1{
+	text-shadow: 1px 1px 1px #ccc;
+	font-size: 22px;
+}
+
+#divContenedor{
+	position: absolute;
+	width: 450px;
+	left: 50%;
+	margin-left: -225px;
+	top: 50px;
+}
+	#divInfo{
+		padding: 10px;
+		text-align: center;
+	}
+	#divEjemplo{
+		padding: 10px;
+		border: solid 1px #ccc;
+		border-radius: 3px;
+		box-shadow: 0 0 10px #ccc;
+		background: #fff;
+	}
+		#divEjemplo select{
+			width: 225px;
+		}
+		#divControles{
+			
+		}
+		#divLista{
+			max-height: 330px;
+			overflow: auto;
+		}
+
+			#divLista ul{
+				list-style-type: none;
+			}
+				#divLista ul li{
+					padding: 7px;
+					border-radius: 3px;
+				}
+					#divLista ul li:nth-child(odd){
+						background: #f1f1f1;
+					}
+					#divLista ul li:nth-child(even){
+						background: #fff;
+					}
+					#divLista ul li a.clsEliminarElemento{
+						padding: 5px;
+						border: solid 1px #ccc;
+						background: #fff url(../img/eliminar.png) center no-repeat;
+						border-radius: 3px;
+						width: 16px;
+						display: inline-block;
+						margin-right: 10px;
+						cursor: pointer;
+					}
+						#divLista ul li a.clsEliminarElemento:hover{
+							border-color: #f00;
+						}
+.clsSalto{
+	clear: both;
+	padding: 3px;
+}
+.clsDerecha{
+	text-align: right;
+}
+
+
+
+
+
+
+/* Z-index of #mask must lower than #boxes .window */
+#mask {
+  position:absolute;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+  /* margin-top: -450px; */
+}
+ 
+#boxes .window {
+  position:absolute;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+ 
+ 
+/* Customize your modal window here, you can add background image too */
+#boxes #dialog {
+  width:375px;
+  height:203px;
+}
+
+
+
+
+
+.etiquetaHora {
+	
+   width:70px;
+   margin-left:450px;
+   margin-top:-34px;
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 7px 25px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

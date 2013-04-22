@@ -1,0 +1,13 @@
+<?php /* SVN: $Id: $ */ ?>
+<div class="userFriends form">
+<?php echo $this->Form->create('UserFriend', array('class' => 'normal'));?>
+	<fieldset>
+	<?php
+		echo $this->Form->input('id');
+		echo $this->Form->input('user_id');
+		echo $this->Form->input('friend_user_id');
+		echo $this->Form->input('friend_status_id');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__l('Update'));?>
+</div>

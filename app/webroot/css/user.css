@@ -1,0 +1,3357 @@
+/* $Id:style.css 187 2009-02-27 23:39:20Z rajesh_04ag02 $ */
+/* include reset.css */
+/* Common */.section1 h2, h2.collection-header {
+	color:#1A1A1A;
+	font-size:35px;
+	line-height: 35px;
+	padding:0 0 12px;
+}
+.section1 p, ol.list h3 a:hover, span.show-details {
+	color:#0063dc;
+	text-decoration:none;
+}
+input.contact-link:hover, .ui-datepicker a:hover, a:hover, ul.foot-deals-link li a:hover, p.copy a:hover, a.active, span.show-details:hover, div.record-info a:hover {
+	color:#ff0084;
+}
+div.side1-info-r h3, h3.trip-Details {
+	padding:0 0 5px;
+}
+/** header*/
+#header {
+	background:url('../img/header-bottom-line.png') repeat-x left bottom;
+	padding:0 0 6px;
+	z-index:1000;
+	position:relative;
+}
+div.main-content {
+	padding: 10px 0px 20px 0px;
+}
+/** banner */
+#banner {
+	background: #e7e7e7 url('../img/header-bottom-line.png') repeat-x left bottom;
+}
+/** footer */
+#footer {
+	background:url('../img/header-bottom-line.png') repeat-x left top;
+}
+div.content div.foot-link-block {
+	width:725px;
+}
+/*--- keywords search ----*/
+form.keywords {
+	padding:5px;
+}
+form.check-form div.input {
+	margin:5px 0px 0px;
+}
+form.check-form div.minimum-select-block div.input {
+	padding:20px 0 15px 4px;
+}
+form.check-form div.minimum-select-block div.input label {
+	display: block;
+	margin: 0 0 9px 7px;
+}
+form.check-form div.checkbox:hover+span.value {
+	background:url("../img/block-val-dark-bg.png") no-repeat left top;
+}
+form.keywords div.text input {
+	width:169px;
+	border:1px solid #bfbfbf;
+	border-right:none;
+	padding:8px 5px 8px;
+}
+div.price-range-form-block div.select {
+	padding:25px 0px;
+}
+ul.filter li {
+	margin: 0px 3px;
+}
+/*--- common classes - grouping selector ----*/
+.header-content h1 a, ul.foot-link li a, dl.posted-list dd.not-available, div.property-user-status span, span.dispute-open, .mceEditor, span.warning, span.share-close, .list-space span, ul.header-menu li.menu-link div.hi, ul.header-menu li.hosting span.menu-arrow, ul.share-link li a, div.date-info-block p.date-info span, ol.list li .thumb > a, .thumb > span, .thumb > a, ul.open-id-list li a, div.big-calendar span.monthly-info, span.prev, span.next, span.date, span.cal-price , .block2 p a, .Similar-r a, .book-center p, ul.list3 li.flike-link a, ul.list3 li.tweet-link a , ul.list3 li.share-link1 a, ul.header-menu li.menu-link p.amount-wallet a, p.amount-wallet a, div.edit-info-block div.actions a, span.km, input.paypal-block, span.price-info {
+	display:block
+}
+.header-content h1 a, input.paypal-block, p.paypal-amount span.paypal, h2.paypal-heading span.paypal-icon, #theme span, .loading, span.airbnb-logo , a.facebook-connect-link, span.share-close{
+	text-indent:-999999em;
+}
+/** header contents */
+.header-content h1 a {
+	background:url('../img/logo.png') no-repeat 0 center;
+	margin:12px 0 9px -90px;
+	height:100px;
+}
+.header-right {
+	margin:5px 6px 0 0;
+}
+div.admin-wrapper {
+	background:#626262;
+	height:23px;
+	position:relative;
+}
+ul.admin-menu {
+	width: 400px;
+	padding:0px 10px;
+}
+div.admin-wrapper ul.admin-menu {
+	width:auto;
+}
+ul.admin-menu>li {
+	float:right;
+	margin:1px 5px 0px 6px;
+}
+ul.admin-menu li a {
+	color:#b0b0b0;
+	font-size:90%;
+}
+h5.admin-site-logo {
+	font-size:13px;
+	padding:1px 0px 0px 12px;
+}
+h5.admin-site-logo a {
+	height:auto;
+	width:auto;
+	display:inline;
+	color:#fefefe;
+}
+h5.admin-site-logo a:hover {
+	color:#FF1D92;
+}
+h5.admin-site-logo a span {
+	font-weight:normal;
+	margin:0px 0px 0px 5px;
+}
+p.logged-info {
+	color:#fff;
+	padding:1px 0px 0px 89px;
+	width:66%;
+	text-align:center;
+}
+p.logged-info a {
+	color:#afafaf;
+	text-decoration:underline;
+}
+p.logged-info a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+/*----- top menu-----*/
+ul.header-menu {
+	margin-top:7px;
+}
+ul.global-links-r li.down-arrow {
+	float:right;
+	background:url('../img/common-sprite.png') no-repeat 0 -16698px;
+	padding:0 0 0 15px;
+}
+.hi, .hi a {
+	color:#606b72;
+}
+.hi a:hover {
+	color:#0063dc;
+}
+.list-space {
+	background:url('../img/list-space-left.png') no-repeat 0 -2445px;
+	padding:0 0 0 5px;
+}
+.list-space span {
+	background:url('../img/list-space-right.png') no-repeat 0 -2621px;
+	color:#fff;
+	font-size:18px;
+	padding:9px 14px 10px 10px;
+}
+.list-space:hover {
+	background-position:left -2483px;
+}
+.list-space:hover span {
+	background-position:0 -2659px;
+}
+ul.header-menu li.menu-link {	/*background:url("../img/block2-tl-bg.png") no-repeat scroll left top transparent;*/	padding:0 0 0 5px;	margin:0 1px 0 0;}
+ul.header-menu li.menu-link div.hi {
+	/*background:url("../img/rounded-corner-sprite.png") repeat-x scroll right -13359px transparent;*/
+	height:22px;
+	padding:8px 10px 4px 5px;
+	color:#4C4C4C;
+}
+ul.profile-list li {
+	padding:2px 0;
+}
+ul.profile-list li a {
+	color:#0063DC;
+	padding:0 0 2px 14px;
+}
+ul.profile-list li a:hover {
+	color:#ff0084;
+}
+ul.header-menu li.menu-link:hover ul.profile-list {
+	display:block;
+}
+ul.header-menu li.hosting, ul.header-menu li.traveling {
+	background:url("../img/user-sprite.png") no-repeat 0 -843px;
+	padding:0 0 0 5px;
+	height:34px;
+	z-index:1000;
+	position:relative;
+	margin:0 1px 0 0;
+}
+ul.header-menu li.traveling {
+	background:url("../img/user-sprite.png") no-repeat 0 -3466px;
+}
+ul.header-menu li.hosting > span, ul.header-menu li.traveling > span {
+	background:url("../img/user-sprite.png") no-repeat right -977px;
+	height:26px;
+	padding:8px 10px 0 5px;
+	float:left;
+	color:#fff;
+	font-size:14px;
+}
+ul.header-menu li.traveling span {
+	background:url("../img/user-sprite.png") no-repeat right -3600px;
+}
+ul.header-menu li.hosting h2 span {
+	background:#0066E4;
+}
+ul.header-menu li.traveling h2 span {
+	background:#FF0285;
+}
+div.sub-menu-block {
+	background:#fff;
+	border:1px solid #d8d8d8;
+	border-top:none;
+	right:-1px;
+	top:34px;
+	z-index:10000000;
+}
+div.sub-menu-block1 div.request-block-info {
+	background:#FFEFF8;
+}
+div.sub-menu-block3 {
+	background:#FBFBFB;
+}
+li.hosting:hover div.sub-menu-block, li.menu-link:hover div.sub-menu-block {
+	display:block;
+}
+li.hosting div.hosting-head {
+	background:url("../img/rounded-corner-sprite.png") repeat-x scroll left -8437px #0066E4;
+}
+li.traveling div.hosting-head {
+	background:url("../img/rounded-corner-sprite.png") repeat-x scroll left -12380px #FF0285;
+}
+li.menu-link div.user-head {
+	background:url("../img/rounded-corner-sprite.png") repeat-x scroll left -13220px #FFFFFF;
+	border-bottom:1px solid #d8d8d8;
+}
+div.hosting-head {
+	height:39px;
+	padding:0 10px 0 10px;
+}
+div.hosting-head h2 {
+	background:url("../img/user-sprite.png") no-repeat 0 -1109px;
+	color:#FFFFFF;
+	font-size:20px;
+	padding:9px 0 8px 40px;
+}
+div.user-head p.dashbrad-amount {
+	padding:0 14px 3px 0;
+}
+div.travel-head h2 {
+	background:url("../img/user-sprite.png") no-repeat 0 -3332px;
+}
+div.user-head h2 {
+	background:url("../img/user-sprite.png") no-repeat 0 -553px;
+	color:#4c4c4c;
+}
+ul.header-menu li.hosting span.menu-arrow {
+	background:url("../img/common-sprite.png") no-repeat scroll -2px -2014px #0066E4;
+	padding:0 0 0 15px;
+}
+ul.header-menu li.traveling span.menu-arrow {
+	background:#FF0285 url("../img/common-sprite.png") no-repeat scroll -2px -2014px;
+}
+div.sub-menu-block h4 {
+	color:#000;
+	padding:10px 0;
+}
+div.sub-menu-block h4.request-title {
+	padding:1px 0 2px 0;
+}
+ul.list-menu li {
+	width:175px;
+	margin:2px 0;
+}
+div.sub-menu-block ul li.calender a, div.sub-menu-block ul li.properties a, div.sub-menu-block ul li.calendera, div.sub-menu-block ul li.bookmarked-request a, div.sub-menu-block ul li.trips a {
+	padding:2px 0 4px 25px;
+}
+div.sub-menu-block ul li.properties a {
+	background:url("../img/common-sprite.png") no-repeat left -8977px;
+}
+div.sub-menu-block ul li.calender a {
+	background:url("../img/common-sprite.png") no-repeat scroll 2px -4911px transparent;
+}
+div.sub-menu-block ul li.request a {
+	background:url("../img/common-sprite.png") no-repeat scroll left -8024px transparent;
+	padding:0 0 2px 28px;
+}
+ul.header-menu li div.hosting-details-info a.import-properties {
+	padding-right:10px;
+}
+div.sub-menu-block ul li.bookmarked-request a {
+	background:url("../img/common-sprite.png") no-repeat left -9887px;
+}
+div.sub-menu-block ul li.trips a {
+	background:url("../img/common-sprite.png") no-repeat left -10266px;
+}
+div.sub-menu-block ul li a, ul.request-right li a {
+	background:url("../img/common-sprite.png") no-repeat scroll left -3471px;
+	padding:0 0 2px 20px;
+}
+div.sub-menu-block ul.profile-list li a, ul.admin-links li a {
+	background:url("../img/common-sprite.png") no-repeat scroll left -13074px;
+}
+ul.admin-links li {
+	padding:3px 0;
+}
+ul.users-links li {
+	padding:3px 0 3px 7px;
+}
+ul.admin-links li a {
+	padding:0 0 0 15px;
+}
+div.sub-menu-block ul li a:hover, ul.recommended-list li.active a {
+	color:#ff0084;
+}
+div.hosting-details-info {
+	margin:0 0 0 20px;
+	padding:10px 0px;
+}
+div.request-block-info form.place-search div.submit, div.space-block a.list-space {
+	background:url("../img/search-left.png") no-repeat scroll left top transparent;
+	padding:0 0 0 8px;
+	height:45px;
+}
+div.request-block-info form.place-search div.submit input, div.space-block a.list-space span {
+	background:url("../img/search-right.png") no-repeat scroll right top transparent;
+	color:#FFFFFF;
+	font-size:14px;
+	height:35px;
+	padding:14px 7px 11px 0;
+}
+div.space-block a.list-space span.list-property, div.space-block a.list-space:hover span.post-request {
+	background:#0063DC;
+}
+div.space-block a.list-space span.post-request, div.space-block a.list-space:hover span.list-property {
+	background:#FF0084;
+}
+div.space-block a.list-space span.list-property, div.space-block a.list-space span.post-request {
+	height:auto;
+	padding:0;
+}
+div.space-block a.list-space:hover {
+	background-position:left bottom;
+}
+div.request-block-info form.place-search div.submit:hover, div.space-blocka.list-space:hover, div.sub-menu-block1 div.space-block a.list-space {
+	background-position:left bottom;
+}
+div.request-block-info form.place-search div.submit {
+	margin-top:5px;
+}
+div.sub-menu-block1 div.space-block a.list-space span, div.request-block-infoform.place-search div.submit input:hover, div.space-block a.list-spacespan:hover, div.space-block a.list-space:hover span {
+	background-position:right bottom;
+}
+div.sub-menu-block1 div.space-block a.list-space:hover span, div.sub-menu-block1 div.space-block a.list-space span:hover, div.sub-menu-block1div.space-block a.list-space:hover span {
+	background-position:right top;
+}
+div.sub-menu-block1 div.space-block a.list-space:hover {
+	background-position:left top;
+}
+div.request-block-info form.place-search div.text {
+	background:url("../img/rounded-corner-sprite.png") no-repeat scroll left -8868px transparent;
+	width:180px;
+	float:left;
+	padding:0;
+}
+div.travel-request-block-info form.place-search div.submit, div.travel-space-block a.list-space {
+	background-position:left bottom;
+}
+div.travel-request-block-info form.place-search div.submit input, div.travel-space-blocka.list-space span {
+	background-position:right bottom;
+}
+div.travel-request-block-info form.place-search div.submit:hover, div.travel-space-blocka.list-space:hover {
+	background-position:left top;
+}
+div.travel-request-block-info form.place-search div.submit input:hover, div.travel-space-blocka.list-space span:hover {
+	background-position:right top;
+}
+div.request-block-info form.place-search div.text input {
+	background:none;
+	margin-top:2px;
+	width:152px;
+}
+div.request-block-info {
+	background:#EAF2FA;
+	border-bottom:1px solid #D8D8D8;
+	padding:7px 0 7px 20px;
+}
+div.request-left-block {
+	padding:4px 0px;
+}
+div.request-right-block {
+	margin:17px 10px 0px 0px;
+}
+div.request-right-block p.address-info {
+	word-spacing:-2px;
+}
+div.section2 p.address-info img {
+	width:21px !important;
+	height:11px !important;
+	left:-1px !important;
+}
+div.space-block a.list-space span {
+	font-size:13px;
+	height:20px;
+}
+div.user-profile-info-left, div.user-profile-info-right {
+	padding:0 0 10px 20px;
+}
+div.user-profile-info-right {
+	border-left:1px solid #ccc;
+}
+div.sub-menu-block div.user-profile-info-right ul li {
+	width:193px;
+}
+div.user-profile-info-right ul.profile-list {
+	margin:5px 0 0 0;
+}
+dl.condition-list {
+	padding:0px 15px;
+}
+span.city-price1 span.price-amount, span.city-price1 span.price-amount span.cr, div.secuirty-deposit, div.social-networks-block span, .calender-guest-list, div.login-right-block div.fromleft a, div.host-panel span.info, form.normal div.picture div.input input, div.city-price1 span.price-amount, div.city-price1 span.price-amount span.cr, div.login-right-block form.normal div.input label, div.side2 span.side-info1, span.side-info1, p.paypal-amount, div.summary-block h3, dl.summary-list, dl.count-list dt, dl.count-list dd, div.share-link-block, form.normal div.transaction-category div.radio label, div.activities-status, address.address-info, div.tripped-address address,p.posted-on, div.message-info-block p, div.mail-date-time, span.job-type-1, ul.replay-forward-links li, p.trip-info, p.address-info, p.pernight-info, span.address-info, p.privacy, dl.count-list1 dd, dl.count-list1 dt, div.dashboard-info p, ul.list1 li.read-more1 a.un-like, a.un-like, div.feedback-block h5, .block1 span.search_results, ul.sort-list1 li ul li, #datepicker table td, p.change-profile, p.request-info, p.logged-info, .not-booked-week, .notavailable-week, div.big-calendar span, div.date-info-block p.date-info span.days, div.payment-side2 div.trip-condition-block dl.condition-list, td.big-calendar span {
+	font-size:11px;
+}
+table.list th.properties-title, div.properties-info-block div.checkbox, div.properties-info-block h3, form.language-form div.select label, div.message-content, .authorize-page, .message-content input, div.login-right-block div.open-id-block h5, form#PropertyIndexForm div.checkbox label, .ui-tabs ul.admin-property-menu li a, .book-center p, table.transactions-list tr.total-block td, #footer, div.propertyFlags, div.requestFlags, ul.admin-menu, h5.admin-site-logo a span, ul.header-menu li div.hosting-details-info a.import-properties {
+	font-size:12px;
+}
+p.amount, .hi, div.sub-menu-block h4  {
+	font-size:14px;
+}
+div.actions ul, ol.property-list h3, #footer, div.city-search-block-top div.properties-block, div.city-search-block-top form.normaldiv.checkbox, #properties-search #main, div.actions ul, .calendar-month, p.selected, form#PropertyUpdateForm, form#PropertyUserIndexForm, div#collections-index div#main, div#properties-search #header, div#collections-index #header, div.usernotification-block form.normal, div.usernotification-block form.normal fieldset, div.padd-center div.login-right-block p, div.login-right-block form.normal, dl.condition-list1, div.trip-condition-block-total dl.condition-list dt.total, #property_users-index div.properties-middle-block, dl.ratings-feedback-block, div.padd-center p.date-info1, ol.comments-list h3, div.payment-states-block, #users-view div.no-side div.main-side1, #jobs-view div.no-sidediv.main-side1, #messages-activities div.main-side1, #requests-view div.main-side1 {
+	padding:0;
+}
+div.show-calender span.active, ol.myrequest-list>li, ol.myrequest-list>li:hover, form.add-property div.ui-button-set, div#properties-search #header, div#collections-index #header, div.user-info-block-right1, dl.guest dd.success-rating, ul.sort-list1 li:first-child , .success-rate img:hover, form.normal div.available, ul.foot-link li:first-child, p.selected, h5.admin-site-logo a {
+	background:none;
+}
+div.usernotification-block, div.login-right-block form.normal div.checkbox input, div.compose-box div.page-information, div.pptview-mblock-mm div.properties-side1, div.side2 span.info, textarea#UserCommentComment, div.user-view-left-block, div.attachment-delete-block div.checkbox input, div.city-search-block-top div.properties-block, div.city-search-block-top form.normaldiv.checkbox,div.actions ul, .book-center p, div.actions ul, form#PropertyUpdateForm, form#PropertyUserIndexForm, div.similar-block ol.list, div.sub-menu-block, form.keywords {
+	margin:0;
+}
+#users-view .ui-widget-content, div.record-info span, ol.feedback-list li.notice-info, ol.property-list li div.user-avatar img {
+	border:none;
+}
+ul.filter-list li, ul.affiliates-links li, span.show-details {
+	margin:0px 5px;
+}
+div.aup p strong, p.login-account, div.login-right-block div.open-id-block h5, table.transactions-list tr.total-block td, .fields-block legend, p.privacy span.note, h5.admin-site-logo a, ol.property-list li div.city-price1 span.cr1, p.trip-info {
+	font-weight:bold;
+}
+table.list th.properties-title-section div.table-select-block, div.properties-info-block, div.properties-info-block div.checkbox, div.properties-info-block h3, div.properties-import h2, p.paypal-amount span, div.properties-title-details p, div.transection-date-time-block, form.normal div.transaction-category div.submit, dl.summary-list, div.host-panel h4, div.host-panel span.info, form.property-view-form div.booking-option-block div.city-price1, h2.properties-title, div.edit-info-block div.actions, div.edit-info-block div.actions a, dl.ratings-feedback dt, dl.ratings-feedback dd, .Similar-list .Similar-img, .good-img, .detail-block dl dt, .detail-block dl dd, dl.ratings-feedback dt, dl.ratings-feedback dd, .block2 p.slider span, .block2 p span.price, .block2 h4, .mail-right-block h4, .side2, .block1 h2, ul.open-id-list li, ul.sort-list, h5.sort-head, ol.list li span.cl, ol.list li .user-avatar, ul.foot-link li, ul.share-link li, div.sub-menu-block div.user-profile-info1 ul.profile-list li, ul.list-menu li, form.check-form div.input, ul.filter li  {
+	/* float:left;*/
+}
+/** banner contents */
+.banner-content {
+	padding:15px 0;
+}
+.section1 {
+	padding:10px 0 0 0;
+	width:415px !important;
+}
+.section2 {
+	margin:0 0 0 22px;
+	width:505px !important;
+	height:440px;
+}
+div.photos-view-block {
+	height:570px;
+}
+#gallery {
+	border:5px solid #fff;
+	background:#fff;
+	z-index:0;
+	position:relative;
+	overflow:hidden;
+	height:400px !important;
+}
+.gv-gallery {
+	margin:0px auto !important;
+}
+p.tipped-info, p.js-date-picker-info, .book-center div.cals-status p.js-date-picker-info {
+	background:url("../img/icon-info.png") no-repeat scroll left center transparent;
+	color:#869599;
+	margin:0 0 20px 28px;
+	padding:0 0 0 20px;
+}
+.book-center div.cals-status p.js-date-picker-info {
+	margin:5px 0 20px 14px;
+}
+p.started {
+	background:url("../img/common-sprite.png") no-repeat scroll left -16251px transparent;
+	padding:0 0 0 20px;
+}
+.gallery-block {
+	padding:6px;
+	background:#fff;
+	margin: 0 0 20px 0;
+}
+p.reviews, p.amount {
+	color:#707070;
+	padding:0 0 5px 0;
+}
+/** footer contents */
+.footer-content {
+	padding:15px 0px;
+}
+
+ul.share-link {
+	padding:0 0px 0px 270px;
+}
+ul.share-link li {
+	margin:0 0 0 10px;
+}
+ul.share-link li a {
+	height:27px;
+	width:190px;
+}
+ul.share-link li.twitter a {
+	background:url('../img/user-sprite.png') no-repeat 0 -3734px;
+}
+ul.share-link li.facebook a {
+	background:url('../img/user-sprite.png') no-repeat 0 -689px;
+}
+ul.share-link li.twitter a:hover {
+	background-position:0 -3761px;
+}
+ul.share-link li.facebook a:hover {
+	background-position:0 -716px;
+}
+.foot-link-block {
+	margin:0 125px;
+	padding:24px 0 0 0;
+}
+ul.foot-link {
+	width:530px;
+	margin:0px auto;
+}
+ul.foot-link li {
+	padding:1px 8px 0 8px;
+	background:url('../img/rounded-corner-sprite.png') no-repeat left -7766px;
+}
+ol.property-list>li:hover, ol.property-list li.active {
+	background:#f1f1f1;
+	border:1px dashed #999;
+	border-width:1px 0 1px 0;
+}
+ol.property-list li span.exact {
+	vertical-align:super;
+}
+div.main-content div.date-info-block1 {
+	background:url("../img/user-sprite.png") no-repeat 0 -373px;
+	height:87px;
+	margin:0 5px;
+	width:80px;
+}
+ol.property-list div.date-info-block {
+	width:92px;
+}
+div.date-info-block p.date-info span {
+	color:#333;
+}
+div.date-info-block p.date-info span.month {
+	background:url("../img/user-sprite.png") no-repeat 0 -1246px;
+	color:#FFFFFF;
+	height:19px;
+	margin:0 auto;
+	width:64px;
+}
+div.date-info-block p.date-info span.date {
+	font-size:20px;
+	padding:6px 0;
+}
+div.gv-panel-overlay div.user-avatar {
+	width:36px;
+}
+div.gv-panel-overlay div.home-info-block {
+	width:268px;
+}
+div.gv-panel-overlay div.city-price1 span.cr {
+	font-size:25px;
+}
+div.similar-block h2 {
+	top:-38px;
+	left:0px;
+}
+.similar-block ol.list>li:hover, .similar-block ol.list>li:first-child, .similar-block ol.list {
+	background:none;
+	border:0px;
+}
+ol.list li .thumb, .thumb {
+	background:#fff;
+	margin:0 18px 0 0;
+	background:url(../img/city-search-thumb-shadow.png) no-repeat center bottom;
+	padding:0 0 8px;
+}
+ol.list li .thumb > a, .thumb > span, .thumb > a {
+	border:1px solid #dcdcdc;
+	width:112px;
+	padding:4px;
+}
+ol.list li .thumb a img, .thumb span img, .thumb a img {
+	width:110px;
+	height:72px;
+}
+ol.list li .user-avatar {
+	margin:0 10px 0 0;
+}
+ol.list li .thumb-shadow {
+	height:8px;
+	width:112px;
+}
+ol.list li span.cl {
+	font-size:16px;
+}
+div.properties-side1 div.city-price, ol.myrequest-list div.city-price {
+	margin:10px 0px 0px 0px;
+}
+div.gigs-view-info-blocks div.city-price1 span.cr {
+	font-size:18px;
+}
+ol.property-list li div.city-price1 span.cr1 {
+	font-size:32px;
+	line-height:35px;
+}
+/* Related */
+div.add-block {
+	padding:10px 0px;
+}
+input.refer-box, #embed_frame input {
+	border:1px solid #DDDDDD;
+	margin:4px 10px 12px;
+	padding:5px;
+	width:500px;
+}
+#embed_frame input {
+	padding:4px;
+	width:423px;
+}
+div.checkin-checkout-block {
+	position:relative;
+}
+/** sort list styles*/
+ul.sort-list, h5.sort-head {
+	padding:5px 5px 0px 0px;
+}
+ul.sort-list li {
+	padding: 0 5px;
+}
+/** unorder listing styles for openid */
+.open-id-block h5 {
+	font-size:17px;
+	margin:0 50px 0 5px;
+}
+ul.open-id-list {
+	margin: 7px 7px 10px 20px;
+}
+ul.open-id-list li {
+	padding:0 0 0 10px;
+}
+ul.open-id-list li a {
+	height:24px;
+	width:24px;
+}
+ul.open-id-list li.face-book a {
+	background:url(../img/common-sprite.png) no-repeat 0 -7291px;
+}
+ul.open-id-list li.twiiter a {
+	background:url("../img/common-sprite.png") no-repeat 0 -7664px;
+}
+ul.open-id-list li.yahoo a {
+	background:url("../img/common-sprite.png") no-repeat 0 -7788px;
+}
+ul.open-id-list li.gmail a {
+	background:url("../img/common-sprite.png") no-repeat 0 -7416px;
+}
+ul.open-id-list li.open-id a {
+	background:url("../img/common-sprite.png") no-repeat 0 -7540px;
+}
+div.play-link {
+	margin: 0px 0px 0px 3px;
+}
+div.payment-side2 {
+	margin: 0 0 0 5px;
+	width: 240px;
+}
+div.payment-side2 dl.condition-list dt {
+	width: 118px;
+}
+div.payment-side2 div.trip-condition-block dl.condition-list dt {
+	width: 70px;
+}
+div.trip-condition-block dl.condition-list dd {
+	padding: 0 0 0 5px;
+	width:153px;
+}
+/* calendar styles*/
+div.calendar-month table tr td {
+	cursor: pointer;
+}
+div.big-calendar+table {
+	margin:0;
+	border-collapse:separate;
+}
+table th.calendar-head {
+	color:#666666;
+	background:#E8E8E8;
+	font-size:10px;
+	padding:4px;
+}
+table td div.side2 div.categories .small-calendar {
+	border:#E6E6E6 solid 1px;
+	padding:8px;
+}
+table td.event {
+	background:url(../img/event-icon.png) no-repeat 14px 6px;
+}
+table td.big-calendar {
+	border:1px solid #FFFFFF;
+	padding:2px;
+	width:146px;
+}
+table td.big-calendar div.c-status {
+	margin:5px 2px 0 2px;
+	color:#000;
+	font-size:9px;
+	padding:0;
+	background:#ccc;
+}
+div.side2 div.categories .small-calendar {
+	margin:0px 0 5px 0;
+	width:190px;
+}
+td.pastdate a {
+	color:#666 !important;
+}
+div.big-calendar {
+	background:#fff;
+	margin:0;
+}
+div.big-calendar span.monthly-info {
+	font-size:10px;
+	margin:0 auto;
+	width:224px;
+}
+div.form-block #datepicker {
+	-moz-border-radius:5px 5px 5px 5px;
+	border:1px solid #DDDDDD;
+	margin:0 10px;
+	padding:3px;
+}
+div.form-block ol.calender-guest-list #datepicker {
+	margin:0;
+	height:195px;
+}
+div.side2 div.categories .small-calendar .calendar-month {
+	padding-left:33px;
+}
+div.monthly-info {
+	background:#F7F7F7;
+}
+.calendar-month {
+	margin:0 0 5px;
+}
+span.prev, span.next {
+	height:12px;
+	width:12px;
+}
+span.prev {
+	left:6px;
+	top:6px;
+	background:url(../img/prev.png) no-repeat left top;
+}
+span.next {
+	right:6px;
+	top:6px;
+	background:url(../img/next.png) no-repeat left top;
+}
+span.prev:hover, span.next:hover {
+	background-position:left bottom;
+}
+.calendar-block h3 {
+	padding:10px 0 10px 10px;
+}
+.calendar-block img {
+	padding:5px 2px;
+}
+.booked {
+	background-color:#FFA2B7;
+}
+.available {
+	background-color:#97CE68;
+}
+.cal-today {
+	background-color:#5E8F33;
+}
+.booked-week, .not-booked-week, .notavailable-week {
+	background-color:#FFA2B7;
+	border:1px solid #fff;
+	color:#FFFFFF;
+	padding:2px;
+}
+.not-booked-week, .notavailable-week {
+	background-color:#98CF67;
+}
+.notavailable-week {
+	background-color:#F7F7F7;
+}
+#datepicker table td {
+	color:#fff;
+	border:1px solid #fff;
+	font-weight: normal;		font-size: 16px;		height: 30px;		vertical-align: middle;		text-align: center;
+}
+#datepicker table td.week-list {
+	background:#fff;
+	width:25px;
+}
+#datepicker table td.big-calendar {
+	background:#fff;
+}
+#datepicker table td.notavailable-week, #datepicker table td.pastdate {
+	color:#666;
+}
+span.cal-price {
+	margin:5px 0 0 !important;
+}
+div.time-desc img:hover {
+	opacity:1;
+	filter:none;
+}
+.chart-info-block img:hover {
+	background:#fff;
+}
+div.chart-info-block img:hover {
+	background:#FFEFF8;
+}
+div.selling-bg div.chart-info-block img:hover {
+	background:#F7FCFF;
+}
+.city-search-block {
+	margin:22px 5px 12px;
+}
+.city-search-form {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -2888px;
+}
+.city-search-block-tl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -3148px;
+	padding:0;
+	margin:0 0 0 6px;
+}
+.city-search-block-tr {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -4420px;
+	padding:0 0px 0 0;
+	width:942px;
+}
+div.content div.city-search-block-tm {
+	background:url("../img/city-search-tm-bg.png") repeat-x scroll left top #EDEDED;
+	padding:12px 8px 8px;
+	float:none;
+	width:916px;
+	margin:0px 6px;
+}
+.city-search-block-cl {
+	background:url(../img/city-search-cl-bg.png) repeat-y left top;
+	padding:0 0 0 5px;
+}
+.city-search-block-cr {
+	background:url(../img/city-search-cr-bg.png) repeat-y right top;
+	padding:0 5px 0 0;
+}
+.city-search-block-cm {
+	background:#fff;
+	padding:5px 0;
+}
+.city-search-block-bl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -2572px;
+	padding:0 0 0 5px;
+}
+.city-search-block-br {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -2783px;
+	padding:0 5px 0 0;
+}
+.city-search-block-bm {
+	background:url(../img/rounded-corner-sprite.png) repeat-x left -2677px;
+	height: 6px;
+}
+/*-- side1 --*/
+.side1 {
+	margin:0 0 0 5px;
+	padding:0 0 66px 0;
+}
+.user-view-blocks .side1 {
+	width:918px;
+}
+.block1 h2 {
+	font-size:17px;
+	padding:1px 0 3px 0;
+}
+ul.sort-list1 {
+	margin:17px 0 0 0;
+}
+ul.sort-list1 li ul li {
+	margin:3px 2px;
+}
+ul.sort-list1 li ul li a {
+	text-decoration:underline;
+}
+ul.sort-list1 li ul li a:hover {
+	text-decoration:none;
+}
+ul.sort-list1 li.recommended-filter-list h5.sort {
+	padding:0 5px 0 0;
+}
+.block1 span.search_results {
+	color:#999999;
+	margin:18px 0 0 5px;
+}
+.block1 .share-results {
+	margin:18px 5px 0 0;
+	font-size:10px;
+	font-weight:bold;
+}
+.rating-block {
+	width:20px;
+}
+/*-- side2 --*/
+.block2 {
+	margin:0 0 14px 0;
+}
+.block2 h4, .mail-right-block h4 {
+	color:#4c4c4c;
+	font-size:14px;
+	text-transform:capitalize;
+	padding:10px 0 0 10px;
+}
+.main-message-block {
+	padding:10px;
+}
+.block2-tm a {
+	float:right;
+	margin:8px 0 0 0;
+	width:18px;
+	height:20px;
+}
+.block2-tm a.minus {
+	background:url("../img/common-sprite.png") no-repeat left -542px;
+}
+.block2-tm a.plus {
+	background:url("../img/common-sprite.png") no-repeat left -662px;
+}
+.block2 p {
+	color:#707070;
+	padding:5px 0 0 3px;
+}
+.block2 p a {
+	margin:8px 0 6px 0;
+}
+span.value {
+	float:right;
+	width:34px;
+	padding:0px 0 3px 0;
+	height:15px;
+	background:url(../img/block-val-bg.png) no-repeat top left;
+	color:#fff;
+	margin:5px 0 0;
+}
+.block2 p span.price {
+	background:url(../img/block-val-dark-bg.png) no-repeat left top;
+	margin:0 0 0 8px;
+}
+.block2 p.slider {
+	height:14px;
+	background:url(../img/slider-bg.png) no-repeat left center;
+	margin:8px 13px 6px 14px;
+	padding:0;
+}
+.block2 p.slider span {
+	width:8px;
+	height:14px;
+	background:url(../img/slider-runner.png) no-repeat left top;
+	margin:0 0 0 10%;
+}
+.rightbox {
+	padding-top:10px;
+}
+#properties-view dl.success-rating {
+	width:55px;
+}
+dl.no-booking dd.no-booking {
+	background:url("../img/common-sprite.png") no-repeat scroll left -11873px transparent;
+	height:31px;
+	margin:6px auto;
+	padding:0;
+	width:30px;
+}
+dl.no-booking {
+	width:99px;
+	margin:0px auto;
+	padding:0px;
+	height:60px;
+}
+dl.success-rating {
+	width:106px;
+	margin:0px;
+	height:61px;
+}
+dl.success-rating dd.success-rating {
+	height:auto;
+	margin:0px;
+}
+div.states-block dl.ratings-feedback {
+	float:right;
+	padding:10px 0px;
+}
+dl.ratings-feedback dd {
+	margin:0 3px;
+	padding:3px 0;
+}
+dl.ratings-feedback dt {
+	width:20px;
+	height:20px;
+}
+dl.ratings-feedback dt.positive-feedback {
+	background:transparent url(../img/thumb-up.png) no-repeat scroll left top;
+	width:18px;
+	height:20px;
+}
+dl.ratings-feedback dt.negative-feedback {
+	background:transparent url(../img/thumb_down.png) no-repeat scroll left top;
+}
+dl.ratings-feedback dt.total-views {
+	background:url("../img/view-icon.png") no-repeat scroll left top transparent;
+	height:15px;
+	margin:9px 0 0 3px;
+}
+div.feedback-block p.contact-seller {
+	margin-top:10px;
+}
+div.feedback-view dl.ratings-feedback {
+	float:right;
+	width: 75px;
+}
+/* Actions */
+div.actions li {
+	list-style-type:none;
+	line-height:2em;
+	margin:0 2em 0 0;
+	white-space:nowrap;
+}
+div.pptab-menu-center h2, div.block1-tm h2 {
+	padding:13px 0 15px;
+}
+.similar-block1 {
+	margin:0 4px 0 12px;
+}
+div.slider {
+	margin:10px 0 0 0;
+}
+a.pre-img, a.for-img {
+	width:41px;
+	height:48px;
+	float:left;
+}
+a.pre-img {
+	background:url(../img/pre-img.png) top left no-repeat;
+	margin:1px 0px 0 0;
+}
+a.pre-img:hover {
+	background:url(../img/pre-img.png) bottom left no-repeat;
+}
+a.for-img {
+	background:url(../img/for-img.png) top left no-repeat;
+	margin:1px 0px 0 0px;
+}
+a.for-img:hover {
+	background:url(../img/for-img.png) bottom left no-repeat;
+}
+.gryfill-tl {
+	background:url(../img/gryfill-tl.png) no-repeat left -8107px transparent;
+}
+.gryfill-tr {
+	/* background:url(../img/gryfill-tr.png) no-repeat right -8219px transparent; */
+}
+.gryfill-tblr {
+	background:#FFFFFF;
+	height:12px;
+	margin:0 12px;
+}
+.gryfill-m {
+	min-height:51px;
+	padding:0px 12px 0px 12px;
+	background:#FFFFFF;
+}
+.gryfill-bl {
+	/*background:url(../img/rounded-corner-sprite.png) no-repeat left -7883px transparent;*/
+}
+.gryfill-br {
+	/*background:url(../img/rounded-corner-sprite.png) no-repeat right -7995px transparent;*/
+}
+.detail-block h5 {
+	color:#262626;
+	font-size:14px;
+	padding:0 0 16px;
+}
+.detail-block dl dt, .detail-block dl dd {
+	color:#707070;
+	padding:3px 0 3px 0;
+	line-height:18px;
+}
+.detail-block dl dt {
+	width:110px;
+}
+.detail-block dl dd {
+	width:80%;
+}
+.detail-block .top-space {
+	margin:40px 0 0;
+}
+.pptview-mblock-mm .desc-inform {
+	width:400px;
+}
+.Similar-Listing-block .pptab-menu-left, .good-block .pptab-menu-left {
+	height:40px;
+}
+.Similar-r {
+	float:right;
+	width:140px;
+}
+.Similar-r a {
+	padding:2px 0 3px 0;
+	color:#0063dc;
+}
+.Similar-r a:hover {
+	color:#ff0084;
+}
+.Similar-r p {
+	color:#4c4c4c;
+	padding:2px 0 4px 0;
+}
+.Similar-list li {
+	padding:12px 0 0px 0px;
+}
+.book-tl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -2126px transparent;
+	margin:10px 0 0 0;
+}
+.book-tr {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -2340px transparent;
+}
+.book-tm {
+	background:url(../img/rounded-corner-sprite.png) repeat-x scroll center -2233px transparent;
+	margin:0 7px;
+	height:7px;
+}
+.book-ll {
+	background:url(../img/book-ll.png) repeat-y scroll left center transparent;
+}
+.book-rr {
+	background:url(../img/book-rr.png) repeat-y right center transparent;
+}
+.book-center {
+	background:url("../img/book-center.png") repeat-x scroll left top #fff;
+	margin:0 2px;
+	padding:0px 0px 5px 0px;
+}
+.book-bl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -1476px transparent;
+}
+.book-br {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -1690px transparent;
+}
+.book-bm {
+	background:url(../img/rounded-corner-sprite.png) repeat-x left -1583px transparent;
+	height:7px;
+	margin:0px 7px;
+}
+.book-center p {
+	padding:0 0 5px 15px;
+}
+.book-center p.address-info {
+	text-align:center;
+	padding:0px 0px 10px 0px;
+}
+a.book-btn {
+	margin:10px 0 0 0;
+}
+a.book-btn span {
+	padding:9px 24px 14px 33px;
+}
+/* custom css */
+.view_heading {
+	padding:10px;
+}
+#datepicker table td.booked {
+	background-color:#FFA2B7;
+}
+#datepicker table td.available {
+	background-color:#98CF67;
+}
+#datepicker table td.available-10 {
+	background-color:#eaf7dd;
+}
+#datepicker table td.available-9 {
+	background-color:#d1e6bd;
+}
+#datepicker table td.available-8 {
+	background-color:#cae2b4;
+}
+#datepicker table td.available-7 {
+	background-color:#cdfea1;
+}
+#datepicker table td.available-6 {
+	background-color:#a9f267;
+}
+#datepicker table td.available-5 {
+	background-color:#a8ea6d;
+}
+#datepicker table td.available-4 {
+	background-color:#a9e276;
+}
+#datepicker table td.available-3 {
+	background-color:#abdd7f;
+}
+#datepicker table td.available-2 {
+	background-color:#a8d481;
+}
+#datepicker table td.available-1 {
+	background-color:#a0cf77;
+}
+#datepicker table td.available1 {
+	background-color:#8dc35d;
+}
+#datepicker table td.available2 {
+	background-color:#83b952;
+}
+#datepicker table td.available3 {
+	background-color:#77ad47;
+}
+#datepicker table td.available4 {
+	background-color:#6ca13c;
+}
+#datepicker table td.available5 {
+	background-color:#619533;
+}
+#datepicker table td.available6 {
+	background-color:#598e2a;
+}
+#datepicker table td.available7 {
+	background-color:#57882b;
+}
+#datepicker table td.available8 {
+	background-color:#4d7b24;
+}
+#datepicker table td.available9 {
+	background-color:#436e1d;
+}
+#datepicker table td.available10 {
+	background-color:#3d6916;
+}
+#datepicker table td.not-avilable {
+	background-color:#d96566;
+}
+#datepicker table td.pastdate, #datepicker table td.pastweek {
+	background-color:#F7F7F7;
+}
+.js-day-mouse-over, .js-week-mouseover, .js-guest-week-mouseover, .js-guest-day-mouseover, .js-start-date, .js-start-week, .js-current-select-date, .js-current-select-week, .js-guest-current-select-date, .js-guest-current-select-week, .js-guest-start-week {
+	background-color:#FCEA88 !important;
+}
+#main {
+	min-height:200px;
+	z-index:1;
+	min-height:100px;
+	padding:5px 0;
+	position:relative;
+}
+.rightbox {
+	padding-top:10px;
+}
+div.feedback-block dl.ratings-feedback, div.feedback-block h5 {
+	float:left;
+	padding:2px 0px 0px 5px;
+}
+div.feedback-block h5 {
+	padding:5px 5px 0 0;
+}
+div.states-block dl.ratings-feedback {
+	float:right;
+}
+dl.ratings-feedback dd {
+	margin:0 3px;
+	padding:3px 0;
+}
+dl.ratings-feedback dt {
+	width:20px;
+	height:20px;
+}
+dl.ratings-feedback dt.positive-feedback {
+	background:transparent url(../img/thumb-up.png) no-repeat scroll left top;
+	width:18px;
+	height:20px;
+}
+dl.ratings-feedback dt.negative-feedback {
+	background:transparent url(../img/thumb_down.png) no-repeat scroll left top;
+}
+dl.ratings-feedback dt.total-views {
+	background:url("../img/view-icon.png") no-repeat scroll left top transparent;
+	height:15px;
+	margin:4px 0 0 3px;
+}
+div.feedback-block p.contact-seller {
+	margin-top:10px;
+}
+div.feedback-view dl.ratings-feedback {
+	float:right;
+	width: 75px;
+}
+/* Actions */
+div.actions li {
+	list-style-type:none;
+	line-height:2em;
+	margin:0 2em 0 0;
+	white-space:nowrap;
+}
+a.deactive-user, a.clear-flag, a.flag, a.reply, a.suspend, a.unsuspend {
+	padding:0 0 2px 17px;
+	display:inline-block;
+}
+div.positive-feedback, span.positive-feedback, div.negative-feedback, span.negative-feedback {
+	padding:0px 0 15px 28px;
+}
+div.positive-feedback, span.positive-feedback {
+	background:url(../img/thumb-up.png) no-repeat scroll left 0;
+	border:0px;
+}
+div.negative-feedback, span.negative-feedback {
+	background:url(../img/thumb_down.png) no-repeat scroll left 2px;
+}
+ol.feedback-list li, span.feedback-list {
+	padding:5px 0;
+}
+ol.feedback-list li.notice-info {
+	padding: 0px;
+}
+/*******like and unlike **********/
+ul.list1 li.read-more1 {
+	padding:0px 0px 0px 5px;
+	height:24px;
+	float:left;
+}
+ul.list3 li.mail-link a {
+	background:url("../img/mail-icon.png") no-repeat scroll left top transparent;
+	padding:6px 0 6px 31px;
+}
+ul.list3 li.mail-link a:hover {
+	background-position:left bottom;
+}
+ul.list3 li.flike-link a {
+	background:url(../img/f-like.png) no-repeat left top;
+	width:45px;
+	height:20px;
+}
+ul.list3 li.tweet-link a {
+	background:url(../img/tweet-like.gif) no-repeat left top;
+	width:92px;
+	height:20px;
+}
+ul.list3 li.share-link1 a {
+	background:url(../img/share-icon.png) no-repeat left top;
+	width:86px;
+	height:16px;
+}
+ul.list3 li.mail-link a:hover {
+	background-position: left bottom;
+}
+/* revenues list style is begin */
+table.revenues-list td.status {
+	color:#267a2c;
+}
+table.revenues-list td.amount-info, table.revenues-list tr:hover td.amount-info {
+	background:#FCFFCF;
+	padding:6px 10px;
+	vertical-align:middle;
+}
+table.revenues-list td.amount-info1 {
+	background:#DAFFC1;
+	padding:10px 5px;
+	color:#009c00;
+	font-size:18px;
+}
+table.revenues-list td span.status_waiting-for-review {
+	color:orange;
+}
+table.revenues-list td span.status_waiting-for-acceptance {
+	color:orange;
+}
+table.revenues-list td span.status_in-progress {
+	color:green;
+}
+table.revenues-list td span.status_rejected {
+	color:red;
+}
+table.revenues-list td span.status_cancelled {
+	color:red;
+}
+table.revenues-list td span.status_in-progress {
+	color:#009C00;
+}
+table.revenues-list td.jobs-order-notice div {
+	line-height:25px;
+}
+table.revenues-list td.jobs-order-notice:hover {
+	background:transparent;
+}
+table.list tr td span.highlight-cleared, table.list tr td span.highlight-pipeline, table.list tr td span.highlight-lost, table.list tr td span.highlight-flagged, dd.highlight-cleared {
+	background:#7EBF2F;
+	font-size:11px;
+	color:#4C9AAF;
+	padding:0 4px;
+	border:1px solid #ddd;
+}
+table.list tr td span.highlight-pipeline {
+	background:#F7F6A2;
+	color:#ff0000;
+}
+table.list tr td span.highlight-lost {
+	background:#fdcbcb;
+	color:#ff0000;
+}
+table.list tr td span.highlight-cleared, dd.highlight-cleared {
+	background:#99f9cb;
+	color:#ff0000;
+}
+dl.condition-list dd.highlight-cleared {
+	min-height:18px;
+	padding:0 2px;
+}
+table.list tr td span.highlight-flagged {
+	background:#68BFEF;
+	color:#FFFFFF;
+}
+ul.admin-menu li.logout a, ul.admin-menu li a:hover, ul.admin-menu li.active a, table.list tr td span.highlight-flagged a {
+	color:#FFFFFF;
+}
+a.accept-order {
+	background:transparent url(../img/common-sprite.png) no-repeat left top;
+}
+a.reject-order {
+	background:transparent url(../img/common-sprite.png) no-repeat left -13915px;
+}
+a.deliever-work {
+	background:transparent url(../img/deliver.png) no-repeat left top;
+}
+div.selling-bg .main-tl {
+	background:url(../img/theme-img/green-tl.png) no-repeat left top;
+}
+div.selling-bg .main-tr {
+	background:url(../img/theme-img/green-tr.png) no-repeat right top;
+}
+div.selling-bg div.main-top {
+	background:#FBFEF3;
+	border-top:1px solid #E0ECB7;
+}
+div.selling-bg .main-bc {
+	background:#FBFEF3;
+	border-bottom:1px solid #E0ECB7;
+	border-top:none;
+}
+div.selling-bg div.main-side1 {
+	background:#F7FCFF;
+	border:1px solid #8FC2FF;
+	border-top:none;
+}
+#jobs-add div.main-side1 {
+	padding:10px;
+}
+dl.ratings-feedback dt.positive-feedback {
+	background:url("../img/thumb-up.png") no-repeat scroll left 3px transparent;
+	height:30px;
+	width:18px;
+}
+dl.ratings-feedback dt.negative-feedback {
+	background:url("../img/thumb_down.png") no-repeat scroll left 6px transparent;
+	height:30px;
+	width:17px;
+}
+dl.ratings-feedback dd.positive-feedback, dl.ratings-feedback dd.negative-feedback {
+	background:url("../img/icon-2.png") no-repeat scroll left top transparent;
+	height:22px;
+	padding:4px 2px 2px 10px;
+	width:28px;
+	margin:0;
+}
+dl.ratings-feedback dd.negative-feedback {
+	background:url("../img/icon-3.png") no-repeat scroll left top transparent;
+}
+ul.header-menu li.menu-link p.amount-wallet a, p.amount-wallet a {
+	/*background:url("../img/rounded-corner-sprite.png") repeat-x scroll 0 -13494px transparent;*/
+	border:1px solid #D8D8D8;
+	color:#555;
+	font-size:13px;
+	margin:5px 0 0 0;
+	padding:3px 14px 6px 6px;
+	font-size:10px;
+}
+ul.header-menu li.menu-link p.amount-wallet a:hover, p.amount-wallet a:hover {
+	color:#ff0084;
+}
+div.city-search-block-top form.normal div.select select, form.property-view-form div.date select#PropertyUserCheckoutDay, form.property-view-form div.date select#PropertyUserCheckinDay {
+	width:50px;
+}
+select#PropertyUserCheckinYear, select#PropertyUserCheckoutYear {
+	width:60px;
+}
+div.city-search-block-top form.normal div.checkbox label {
+	width:210px;
+}
+div.city-search-block-top div.properties-block {
+	margin: 24px 0px 0px 0px;
+}
+/*property-rating-block style */
+div.edit-info-block {
+	top:5px;
+	right:10px;
+}
+ol.property-list>li:hover div.edit-info-block {
+	display:block;
+}
+ol.property-list>li:hover ol.property-list div.edit-info-block {
+	display:none;
+}
+ol.property-list>li:hover ol.property-list li:hover div.edit-info-block {
+	display:block;
+}
+div.edit-info-block div.actions {
+	margin:2px 6px;
+}
+div.property-rating-block div.actions a.delete, div.property-rating-block div.actions a.edit {
+	margin-right:5px;
+}
+div.edit-info-block div.actions a.msg {
+	text-indent:1px;
+	background:url("../img/icon-msg.png") no-repeat scroll left bottom;
+	padding:0 0 0 22px;
+}
+div.edit-info-block div.actions a.edit {
+	background:url("../img/common-sprite.png") no-repeat scroll left -2643px;
+}
+div.edit-info-block div.actions a.edit:hover {
+	background:url("../img/common-sprite.png") no-repeat scroll left -2627px;
+}
+div.edit-info-block div.actions a.enable-link {
+	background:url("../img/common-sprite.png") no-repeat scroll left -6137px transparent;
+}
+div.edit-info-block div.actions a.disable-link {
+	background:url("../img/common-sprite.png") no-repeat scroll left -5517px transparent;
+}
+div.edit-info-block div.actions a.disable-link:hover {
+	background-position:left top;
+}
+div.edit-info-block div.actions a.enable-link:hover {
+	background-position:left bottom;
+}
+div.edit-info-block div.actions a.delete {
+	background:url("../img/common-sprite.png") no-repeat scroll left -2284px;
+	width:14px;
+	height:14px;
+}
+div.edit-info-block div.actions a.delete:hover {
+	background:url("../img/common-sprite.png") no-repeat scroll left -2260px;
+}
+div.edit-info-block div.actions a {
+	height:16px;
+	margin:0 5px;
+	padding:0;
+	width:16px;
+}
+div.edit-info-block div.actions a.checkin, div.edit-info-block div.actions a.checkout {
+	height:15px;
+}
+/* cities top slider block */
+div.cities-index-block {
+	margin:0 auto;
+	width:946px;
+}
+div.cities-info-block {
+	border:1px solid #CCCCCC;
+	margin:5px auto;
+}
+div.cities-info-block h2 {
+	font-size:13px;
+	line-height:16px;
+	padding:8px 30px 8px 8px;
+	width:71px;
+}
+div.cities-bottom {
+	margin:10px 10px 5px 5px;
+}
+ol.cities-list {
+	margin:5px 0 0 0;
+	width:750px;
+}
+ol.cities-list li {
+	float:left;
+	padding:5px 0px;
+	min-height:14px;
+	width:145px;
+}
+ol.cities-list li a {
+	color:#333;
+}
+ol.cities-list li a:hover, ol.cities-list li a.active {
+	color: #FF2897;
+}
+/* end here */
+div.states-block div.main-side1 {
+	min-height:241px;
+	padding:0px;
+}
+div.payment-states-block div.main-side1 {
+	min-height:141px;
+}
+p.total-earn-block {
+	background:#FFFFFF;
+	border:1px solid #DDDDDD;
+	margin:10px 0;
+	padding:7px;
+}
+div.dashboard-info p.all {
+	padding:0px 0px 5px 0px;
+}
+div.dashboard-info {
+	padding:0 0 10px 0px;
+}
+div.dashboard-info h3 {
+	padding-top:0;
+}
+div.states-block h3.hosting, div.states-block h3.traveling {
+	padding:7px 0 0 5px;
+	color:#1C7DF4;
+}
+div.states-block h3.hosting1 {
+	color:#1C7DF4;
+	float:none;
+}
+div.states-block h3.traveling {
+	color:#FF2A98;
+}
+div.content div.no-side {
+	float:none;
+}
+div.no-side div.main-side1 {
+	padding:10px;
+}
+#users-view div.no-side div.main-side1 {
+	background:url("../img/theme-img/user-view.png") repeat-y scroll left top transparent;
+}
+div.buying-bg div.main-side1 {
+	background:#FFEFF8;
+	border:1px solid #FF8FCB;
+	border-top:none;
+}
+div.buying-bg .compose-box, div.buying-bg form#JobAddForm fieldset, div.buying-bgform#JobEditForm fieldset, div.buying-bg form#RequestAddForm fieldset, div.buying-bgform#RequestEditForm fieldset, div.buying-bg .form-block, div.user-edit-form-block, div.buying-bgform#RequestAddForm fieldset {
+	background: #FFFFFF;
+	border:1px solid #DDDDDD;
+}
+div.buying-bg form#JobAddForm legend, div.buying-bg form#JobEditForm legend, div.buying-bgform#RequestAddForm legend, div.buying-bg form#RequestEditForm legend, div.buying-bg .form-blocklegend {
+	background: #99BBDF;
+}
+/* properties edit page style is begin */
+ul.attachment-links li {
+	background:#FFFFFF;
+	border:1px solid #DDDDDD;
+	float:left;
+	margin:5px;
+	padding:10px;
+	width:112px;
+}
+div.profile-image {
+	margin:0px 0px 0px 185px;
+}
+ol.properties-list1 li {
+	background:#FFFFFF;
+	border:2px solid #DDDDDD;
+	float:left;
+	margin:10px;
+	min-height:121px;
+	padding:10px;
+	width:238px;
+}
+div.padd-center p.properties-title {
+	font-size:13px;
+	padding: 11px 0 15px;
+}
+/* properties index page style is begin */
+ol.property-list div.my-order-left {
+	margin:0 5px 0 0;
+	width:134px;
+}
+#properties-view dl.request-list1 {
+	width:47px;
+}
+#properties-view dl.success-rate-list {
+    width: 50px;
+}
+#properties-view dl.network-level {
+    margin: 0 0 0 9px;
+}
+#properties-view dl.success-rate-list dt {
+    text-align: center;
+    white-space: normal;
+}
+#properties-view dl.request-list1 dd.not-available {
+    /*margin: 11px 0 0 15px;*/
+}
+#requests-view dl.request-list1 {
+	width:52px;
+}
+dl.view-list1 dt {
+	top:41px;
+	left:9px;
+	line-height:21px;
+}
+dl.view-list1 dt.properties {
+	margin:41px 0 0 4px;
+}
+dl.view-list1 dt.countries {
+	margin:41px 0 0 6px;
+}
+dl.reviews dd {
+	background:url("../img/reviews-list-bg.png") no-repeat scroll left top transparent;
+	margin:9px 0 0 21px;
+}
+dl.guest dd {
+	background:url("../img/common-sprite.png") no-repeat left -14370px;
+}
+dl.guest dd.network-level {
+	background:url("../img/common-sprite.png") no-repeat left -11621px;
+	color: #fff;
+}
+dl.guest dd.success-rating img {
+	position:relative;
+	left:0;
+	top:-15px;
+}
+dl.days dd {
+	background:url("../img/common-sprite.png") no-repeat left -3840px;
+}
+dl.posted-list dd.not-available {
+	text-align:center;
+	font-size: 9px;
+	height: 24px;
+	margin: 0;
+	padding: 5px 0 0;
+	width: 28px;
+}
+dl.count-list {
+	padding:0px 0px 5px 0px;
+}
+dl.count-list1 dt {
+	margin:28px 0 0;
+}
+dl.days dt {
+	margin:28px 0 0 9px;
+}
+dl.count-list1 dd {
+	margin:2px 0 0 6px;
+}
+dl.friends dd {
+	background:url(../img/friends-list-bg.png) no-repeat left top;
+	color:#7e6dd7;
+}
+dl.distance-list {
+	width: 60px;
+}
+dl.distance-list dt {
+	margin: 28px 0 0 8px;
+}
+dl.distance-list dd {
+	margin: 2px 0 0 15px;
+}
+#requests-view dl.host-view {
+	float:right;
+	width:115px;
+}
+p.address-info, p.pernight-info, span.address-info, p.privacy {
+	color:#B2B2B2;
+	line-height:15px;
+}
+p.address-info {
+	color:#8B8B8B;
+}
+p.trip-info {
+	color:#656565;
+	padding:5px 0px 0px 0px;
+}
+p.trip-info span.trip-id, p.trip-info a {
+	color:#666;
+	margin:0px 4px 0px 0px;
+	font-weight:normal;
+}
+p.trip-info a:hover {
+	color:#0063DC;
+}
+p.privacy span.note {
+	color:#666;
+}
+span.address-info {
+	padding:0px 5px 0px 0px;
+}
+p.pernight-info {
+	padding: 5px 0px;
+}
+/* order page style is begin */
+div.buying-bg div.pay-paypa-side1, div.pay-paypa-side1 {
+	background: #FFFFFF;
+	border:1px solid #DDDDDD;
+	min-height:167px;
+	margin:10px 0px 0px 0px;
+	padding:10px;
+}
+div.wallet-side1 {
+	padding:10px;
+	min-height:100px;
+	margin:10px 0px 0px 0px;
+}
+div.payment-states-block div.buying-bg {
+	background: #FFFFFF;
+	font-size:14px;
+	margin:0 10px 0 0;
+	min-height:137px;
+	padding:14px;
+}
+form.normal div.pay-paypa-side1 div.input label, div.pay-paypa-side1 p.available-balance {
+	font-size:15px;
+}
+form.normal div.host-textarea label {
+	display:block;
+}
+form.normal div.host-textarea textarea {
+	margin:10px 0 0;
+	width:565px;
+}
+div.trip-details-block {
+	margin:0px 0px 10px 0px;
+}
+span.job-type-1 {
+	color:#666;
+}
+div.payment-process-block {
+	margin:0 0 0 12px;
+}
+form#PaymentOrderForm div.checkbox input {
+	margin: 0px;
+}
+input.paypal-block {
+	background:url("../img/common-sprite.png") no-repeat left -1406px;
+	width:147px;
+	height:42px;
+	font-size:0px;
+	cursor:pointer;
+	border:none;
+	margin:10px 0px 0px 0px;
+}
+/* message style is begin */
+div.message-side2 {
+	float:left;
+	margin:0 0 0 10px;
+	width:721px;
+}
+div.mail-body {
+	border:1px solid #DDDDDD;
+	padding:10px;
+}
+div.mail-date-time {
+	color:#7f7f7f;
+}
+div.send-info-block {
+	padding:10px 0px;
+}
+div.message-inner-content {
+	line-height:20px;
+	padding:10px 0;
+}
+div.mail-content-curve-middle div.show-mail p {
+	line-height:16px;
+	padding:3px 0;
+}
+span.show-details-left {
+	color:#8F8F8F;
+	float:left;
+	padding:0 10px 0 0;
+	width:74px;
+}
+/* Style for star messages starts. Copied from senelda */
+.table.list td.w-two, span.star a, .table.list td.w-two, span.star-select a {
+	width:17px;
+	height:15px;
+	float:left;
+	padding-right:2px;
+	margin:2px 6px 0px 3px;
+}
+table.list tr td.w-two {
+	width:12%;
+}
+.table.list td.w-two, span.star a {
+	background:url(../img/common-sprite.png) no-repeat left -15254px;
+}
+.table.list td.w-two, span.star-select a {
+	background:url(../img/common-sprite.png) no-repeat left -15139px;
+}
+ul.replay-forward-links li {
+	margin:0 2px;
+}
+div.message-info-block {
+	padding:10px 0 10px 11px;
+}
+/* message contact us page style is begin */
+ol.friends-list {
+	margin: 0 0 0 7px;
+}
+ol.friends-list li {
+	float:left;
+	margin:0 9px;
+	padding:5px 10px;
+	width:83px;
+	border:1px solid #ddd;
+}
+ol.friends-list li:hover {
+	background:#fff;
+	border:1px dotted #999;
+}
+ol.friends-list h4 {
+	padding:5px 0px;
+}
+div.message-side2 div.main-section {
+	padding:10px;
+}
+ol.friends-list li.notice-info {
+	float:none;
+	width: auto;
+}
+/* user view page style is begin */
+div.user-view-right-block {
+	width:272px;
+	float:right;
+}
+div.user-view-left-block {
+	width:652px;
+}
+div.user-view-left-block .pptview-mblock-mm {
+	margin:0 3px;
+}
+.user-img-block-left {
+	padding:6px 6px 10px 8px;
+	width:90px;
+}
+.user-img-block-right {
+	width:156px;
+}
+.user-img-block-right dl.posted-list1 dt {
+	margin:0 0 0 10px;
+}
+.user-img-block-right h4 {
+	padding:10px 10px 0;
+}
+div.view-contact-link p {
+	float:right;
+}
+div.view-contact-link {
+	margin:5px 10px 0px 0px;
+}
+div.rating-info-block {
+	padding:0px 0px 0px 8px;
+}
+div.block2-tm h4 {
+	color:#1E7FF4;
+	font-size:16px;
+	padding:8px 0 10px 8px;
+}
+ol.comments-list>li {
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+	padding:10px;
+}
+ol.request-comment-list {
+	margin:0 0 0 0px;
+	width:610px;
+}
+p.posted-on {
+	padding:5px 0px 0px 0px;
+	color:#7f7f7f;
+}
+ol.comments-list h3 {
+	font-size:15px;
+}
+ol.friends-list li.friends-list-notice {
+	float:none;
+}
+p.date-info {
+	font-size:10px;
+	padding:3px 0;
+}
+p.date-info1 {
+	padding:10px 0px;
+}
+div.ui-tabs-panel h2 {
+	font-size:15px;
+	padding:1px 0 0 0px;
+}
+.gv-panel .gv-panel-overlay a:hover {
+	text-decoration:none;
+}
+.gv-panel img.gallery-image {
+	width:515px;
+	height:350px;
+}
+
+ol.property-list .grid_9 h2 {
+	padding: 0px 0px 7px 0px;
+}
+/*properties view page style is begin */
+div.properties-title-block {
+	padding:0px 0px 10px 0px;
+}
+h2.properties-title {
+	float:left;
+	padding:1px 2px;
+}
+address.address-info {
+	color:#8B8B8B;
+}
+div.property-stats {
+	margin:0px 10px 0;
+	width:345px;
+}
+div.payment-states-block div.property-stats {
+	width:400px;
+}
+ul.share-link1 {
+	float:right;
+	margin:17px 0 5px;
+	width:300px;
+}
+ul.share-link1 li {
+	float:right;
+	width:100px;
+}
+div.pptab-menu-center1 {
+	margin:10px 0px 0px 0px;
+}
+div.properties-side1 {
+	margin:5px 0 0 6px;
+}
+
+span.price-info {
+	color:#b3b2ae;
+	font-size:10px;
+	text-align:left;
+}
+form.property-view-form div.radio-price-block input {
+	float:left;
+	margin:19px 8px 0;
+	width:20px;
+}
+form.property-view-form div.booking-option-block input {
+	margin:9px 8px 0;
+	float:left;
+}
+input#PropertyUserBookingOptionPricePerNight {
+	margin:9px 8px 0 12px;
+}
+div.price-info-block1 div.city-price1 {
+	float:left;
+	padding:0 10px 0 0;
+}
+div.price-info-block1 {
+	padding:10px 0 10px 30px;
+}
+div.city-price1 span.price-amount, div.city-price1 span.price-amount span.cr, span.city-price1 span.price-amount, span.city-price1 span.price-amount span.cr {
+	line-height:26px;
+}
+form.normal div.radio-price-block {
+	padding:0 0 10px 29px;
+}
+input#PropertyUserBookingOptionPricePerWeek {
+	margin:9px 8px 0 12px;
+}
+div.verfied-info-block p {
+	padding:5px 0px;
+}
+/*request index page style is begin*/
+div.show-block {
+	padding:15px 0px 15px 0px;
+}
+h5.show {
+	padding:0 10px 0 0;
+}
+ul.filter-list li a {
+	padding:0 0 5px 20px;
+}
+ul.filter-list li.list a {
+	background:url("../img/list.png") no-repeat scroll left top;
+}
+ul.filter-list li.grid a {
+	background:url("../img/grid.png") no-repeat scroll left top;
+}
+ul.filter-list li a.status_selected {
+	color:#FF0084;
+}
+dl.count-list dt, dl.count-list dd {
+	margin:0px 2px;
+	color:#535353;
+}
+p.trip-request {
+	padding:10px 0px;
+}
+div.request-description {
+	padding:7px 0;
+}
+.block2-tm h4.request-username a {
+	float:none;
+	height:auto;
+	margin:0px;
+	text-indent:1px;
+}
+div.tripped-address address {
+	color:#666;
+}
+div.share-link-block {
+	padding:0 10px 10px;
+}
+span.yes {
+	color:green;
+	margin:0px 5px 0px 0px;
+}
+h2.request-title {
+	padding:10px 0px 3px 0px;
+}
+p.price-amount {
+	color:#313330;
+	font-size:25px;
+	padding:15px 0px;
+}
+p.price-amount sup {
+	top:-10px;
+}
+div.price-info-block {
+	margin:0px 0px 10px 0px;
+}
+span.map-button {
+	float:right;
+	margin: 0px;
+}
+/*calender style is begin*/
+div.my-property {
+	background:#F7F7F7;
+	padding:10px 9px;
+	margin:15px 0px 0px 0px;
+}
+div.properties-left-block {
+	width:62px;
+}
+div.properties-left-block img {
+	margin:0px 0px 0px 3px;
+}
+div.properties-right-block {
+	width:190px;
+	margin:2px 0px 0px 0px;
+}
+ol.properties-list li {
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #F7F7F7;
+	margin:0 0;
+	padding:3px 5px 10px;
+}
+ol.properties-list li:hover {
+	background:#f1f1f1;
+	border-bottom:1px dashed #999;
+	border-top:1px dashed #999;
+}
+div.my-property-inner-block {
+	margin:20px 0 0;
+}
+.properties-tm {
+	background:url(../img/rounded-corner-sprite.png) repeat-x left -11207px;
+	height:5px;
+	margin:0px 5px;
+}
+.properties-tl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -11312px;
+}
+.properties-tr {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -11417px;
+}
+.properties-bm {
+	background:url(../img/rounded-corner-sprite.png) repeat-x left -10892px;
+	height:5px;
+	margin:0px 5px;
+}
+.properties-bl {
+	background:url(../img/rounded-corner-sprite.png) no-repeat left -10997px;
+}
+.properties-br {
+	background:url(../img/rounded-corner-sprite.png) no-repeat right -11102px;
+}
+div.properties-middle-block {
+	border-left:1px solid #dedede;
+	border-right:1px solid #dedede;
+	background:#f7f7f7;
+	padding:0px 10px;
+}
+div.properties-middle-inner-block ol.myproperties-list {
+	height:250px;
+	overflow-y:auto;
+}
+div.properties-middle-inner-block1 {
+	padding:20px 28px;
+}
+div.trip-condition-block dl.condition-list {
+	padding:0 0 0 5px;
+}
+dl.condition-list dd, dl.condition-list dt {
+	float:left;
+	min-height:23px;
+}
+div.trip-condition-block-total {
+	border-top:1px solid #DDDDDD;
+}
+dl.condition-list dt {
+	width:142px;
+}
+dl.condition-list dd {
+	padding:0 10px 0 0;
+	width:auto;
+}
+div.condition-block {
+	border-top:1px solid #DDDDDD;
+	margin:10px 0 0;
+}
+dl.condition-list1 dt {
+	width:126px;
+}
+div.condition-block1 {
+	border-top:1px solid #DDDDDD;
+	margin:19px 0 0;
+	padding:10px 10px 0 10px;
+}
+div.condition-block h3 {
+	color:#525252;
+	padding:10px 15px;
+}
+dl.condition-list dd.total, dl.condition-list dt.total {
+	padding:5px 0px 10px 0px;
+	color:#525252;
+}
+#gallery li.gallery-list {
+	position:relative !important;
+}
+span.exact {
+	background: #E4E4E4;
+	border: 1px solid #626262;
+	display: inline-block;
+	font-size: 9px;
+	line-height: 12px;
+	padding: 0 5px 1px 3px;
+}
+/* date picker style is begin */
+div.datepick-multi {
+	background:#FFFFFF;
+	border:3px solid #FFFFFF;
+	width:400px !important;
+}
+div.datepick-month-row div.first {
+	margin:0px 4px 0px 0px;
+}
+form#UserCommentAddForm div.input label {
+	width:84px;
+}
+textarea#UserCommentComment {
+	width:600px;
+}
+div.affliates-block {
+	margin:15px 0px;
+}
+div.picture div.property-img {
+	background: url("../img/common-sprite.png") no-repeat scroll 0 -17143px transparent;
+	height: 151px;
+	padding: 10px 0 0;
+	width: 142px;
+}
+form.normal div.picture div.input {
+	margin:-6px 0 0 0px;
+	background:transparent url(../img/rounded-corner-sprite.png) no-repeat scroll 0 -2447px;
+	width:140px;
+	height:25px;
+	left:25px;
+	z-index:1;
+}
+form.normal div.picture div.input label {
+	top:0px;
+	left:36px;
+}
+form.normal div.picture div.input input {
+	color:#999999;
+	margin:-3px 0 0;
+	padding:0;
+	width:120px;
+	border:none;
+	height:15px;
+}
+form.normal div.picture div.property-img {
+	margin:0 0 0 8px;
+}
+div.revenue-block {
+	border-bottom:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+	margin:10px 0 10px 0;
+	padding:10px;
+}
+div.select-block-info {
+	padding:0 10px 10px;
+}
+div.chart-info-block {
+	right:0px;
+	bottom:5px;
+}
+div.selling-block {
+	padding:10px 10px 0;
+}
+div.selling-bg h4 {
+	color:#1C7DF4;
+	font-size:13px;
+}
+div.buying-bg h4 {
+	color:#FF2A98;
+	font-size:13px;
+	padding:10px 10px 5px;
+}
+div.host-panel-block {
+	padding:0px 0px 10px 0px;
+}
+div.host-panel span.info {
+	margin:9px 0 0 10px;
+	color:#333;
+	background-position:left 1px;
+}
+div.host-panel-block div.properties-middle-block {
+	background:#F7F7F7 url(../img/icon-host.png) repeat-y scroll 0 0;
+	padding:20px 5px 20px 28px;
+}
+div.hovst-view-block dl.request-list1 dt {
+	margin:5px 0 0 35px;
+}
+div.hovst-view-block dl.request-list1 dd {
+	margin:2px 0 0 0;
+}
+div.hovst-view-block dl.request-list1 {
+	width:122px;
+	margin:-4px 0 0 0;
+	height:35px;
+}
+div.make-offerblock {
+	margin:10px 10px 0px 0px;
+}
+div.side2 span.info {
+	padding:3px 0 3px 21px;
+}
+div.side2 dl.condition-list span.info {
+	margin: 0 0 0 5px;
+	background-position:left 5px;
+}
+div.pptview-mblock-mm div.properties-side1 {
+	float:none;
+}
+div.hosting-details-info ul li span.info, div.verfied-info-block span.info {
+	color:#869599;
+	float:none;
+	font-size:10px;
+	height:auto;
+	margin:0 0 0 20px;
+	padding:2px 0 1px 19px;
+	width:172px;
+}
+#feature h5 {
+	font-size:20px;
+	padding-bottom: 25px;
+}
+/*request index page style is begin*/
+ol.myrequest-list ol.list>li {
+	padding:8px 8px 3px;
+}
+ol.myrequest-list ol.property-list div.property-index-list {
+	margin-left:40px;
+}
+ol.myrequest-list p.address-info {
+	padding:0 0 0 4px;
+}
+ol.myrequest-list p.request-address-info {
+	color:#838181;
+	padding:0 0 5px 4px;
+}
+div.offered-block {
+	margin:7px 0 0 0;
+}
+div.my-request {
+	border-bottom:1px solid #EEEEEE;
+	margin-bottom:5px;
+	padding-bottom:10px;
+}
+ol.myrequest-list div.cancel-block {
+	margin:5px 25px 0 0;
+}
+ol.myrequest-list>li, ol.myrequest-list>li:hover {
+	padding:10px 8px;
+}
+ol.myrequest-list>li, ol.myrequest-list>li:hover {
+	border-bottom:1px solid #fff;
+	border-top: 1px solid #fff;
+}
+/*add property form style */
+form.add-property div.ui-button-set {
+	height:auto;
+}
+form.add-property .ui-button-set .ui-state-default, form.add-property .ui-button-set .ui-widget-content .ui-state-default, form.add-property .ui-button-set .ui-widget-header .ui-state-default {
+	border:1px solid #FFFFFF;
+}
+div.myrequest-filter {
+	padding:20px 0px 10px 10px;
+}
+a.datepick-cmd-prev, a.datepick-cmd-next {
+	font-size:0;
+	height:12px;
+	width:12px;
+	padding:0;
+	margin:3px;
+	top:0px;
+	right:0px;
+}
+a.datepick-cmd-prev {
+	background:url("../img/prev.png") no-repeat scroll left top transparent;
+	left:0px;
+}
+a.datepick-cmd-next {
+	background:url("../img/next.png") no-repeat scroll left top transparent;
+}
+a.datepick-cmd-prev:hover, a.datepick-cmd-next:hover {
+	background-position:left bottom;
+}
+a.datepick-disabled {
+	opacity:0.3;
+	filter:alpha(opacity = 30);
+}
+a.datepick-disabled:hover {
+	background-position:left top;
+}
+div.property-user-status {
+	text-align:center;
+}
+div.property-user-status span {
+	color: #FFFFFF;
+	float: none;
+	line-height: 15px;
+	margin: 0 10px 2px 0;
+	padding: 2px;
+	text-align: center;
+}
+/* user-friends style*/
+div.userFriends p.paging-counter {
+	padding:0 8px;
+}
+div.userFriends h3 {
+	padding: 10px 8px;
+}
+/**Fieldset styles*/
+.fields-block {
+	border: 1px solid #ACBDBB;
+	padding:5px;
+}
+.fields-block legend {
+	font-size: 14px;
+	padding:5px;
+}
+.mceEditor {
+	width:550px;
+	margin:35px 0 0;
+}
+.preview-content {
+	position:fixed;
+	right:0px;
+	top:154px;
+}
+.preview-content .preview-label {
+	background:url(../img/preview-label.png) no-repeat left top;
+	width: 64px;
+	height: 64px;
+	left:3px;
+	top:2px;
+}
+.displaydate1 {
+	margin:0 2px;
+}
+.datepicker-content {
+	top:22px;
+}
+#Suspicious_Words_Detector div.info-details {
+	min-height:200px;
+}
+div.myorder-left div.thumb {
+	margin:0 18px 0 10px;
+}
+div.content div.review-date-info-block {
+	margin:10px auto;
+	float:none;
+}
+div.date-info-block p {
+	font-size:13px;
+	margin:0 0 6px;
+}
+form#RequestAddForm div.date-time div.error-message {
+	margin: 5px 0px 0px 80px;
+}
+/*properties-side2 style*/
+div.properties-side2 {
+	margin-top:6px;
+	overflow:hidden;
+}
+div.properties-side2 .block2-cr {
+	padding:0 1px 0 0;
+}
+div.properties-side2 .block2-cl {
+	padding:0 0 0 1px;
+}
+div.block2-tm h4.refine {
+	color:#333;
+}
+div.properties-side2 div.cancel-block {
+	margin-top:15px;
+}
+div.cancel-block span.map-button {
+	text-indent:1px;
+	height:33px;
+	padding: 11px 8px 3px 4px;
+}
+/*Transaction style*/
+table.transactions-list th div.credit {
+	background:#4cb153;
+}
+table.transactions-list th div.debit {
+	background:#fe65b5;
+}
+table.transactions-list th div.credit, table.transactions-list th div.credit a, table.transactions-list th div.debit, table.transactions-list th div.debit a {
+	color:#fff;
+}
+table.transactions-list tr.total-block td.total {
+	text-align:center;
+}
+table.transactions-list tr.total-block td.total span {
+	white-space:nowrap;
+}
+table.transactions-list tr.total-block td span.duration {
+	font-size: 11px;
+	font-weight:normal;
+	margin: 0 0 0 10px;
+	color:#B2B2B2;
+}
+table.transactions-list {
+	margin:0 auto;
+}
+table.revenues-list td.action-block a {
+	display: inline-block;
+	height: 13px;
+	margin: 5px 0;
+	white-space: nowrap;
+}
+/*Message Activities tabs*/
+.ui-tabs-block .ui-tabs .ui-tabs-nav li a {
+	color:#666666;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav {
+	border:medium none;
+	margin:0px 0px -1px 0px;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li {
+	margin:0;
+	width:114px;
+	float:left;
+	top:0;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li, .ui-tabs-block .ui-tabs .ui-tabs-panel {
+	background: #FFE7E7;
+	border:2px solid #FFE7E7;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.dispute {
+	float:right;
+	top:0;
+	background:#FFE7E7;
+	border:2px solid #FEE1E1;
+	border-bottom:none;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.check-in {
+	background:#EDFCE5;
+	border: 2px solid #C5F9A9;
+	width: 119px;
+	border-bottom:none;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.negotiation {
+	width:152px;
+	background:#F9E09F;
+	border:2px solid #FFD151;
+	border-bottom:none;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.private-note {
+	width:152px;
+	background: #FFFFDD;
+	border:2px solid #F4F49A;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.dispute a, .ui-tabs-block .ui-tabs .ui-tabs-nav li.check-in a, .ui-tabs-block .ui-tabs .ui-tabs-nav li.private-note a, .ui-tabs-block .ui-tabs .ui-tabs-nav li.negotiation a {
+	background:url("../img/common-sprite.png") no-repeat 3px -5638px;
+	height:21px;
+	padding:18px 5px 16px 40px;
+	width:66px;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.check-in a {
+	background:url("../img/common-sprite.png") no-repeat scroll 3px -1274px transparent;
+	width:92px;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.private-note a {
+	background:url("../img/common-sprite.png") no-repeat scroll 3px -12934px transparent;
+}
+.ui-tabs-block .ui-tabs .ui-tabs-nav li.negotiation a {
+	background:url("../img/common-sprite.png") no-repeat scroll 3px -2388px transparent;
+	width:103px;
+}
+#messages-activities .ui-tabs-block .ui-tabs #dispute, #messages-activities .ui-tabs-block .ui-tabs #Private_Note, #messages-activities .ui-tabs-block .ui-tabs #Negotiation, #messages-activities .ui-tabs-block .ui-tabs #Checkin, #messages-activities .ui-tabs-block .ui-tabs #Checkout {
+	background:#FFE7E7;
+	border:2px solid #FFE7E7;
+	padding:10px;
+}
+#messages-activities .ui-tabs-block .ui-tabs #Private_Note {
+	background: #FFFFDD;
+}
+#messages-activities .ui-tabs-block .ui-tabs #Negotiation {
+	background:#F9E09F;
+}
+#messages-activities .ui-tabs-block .ui-tabs #Checkin, #messages-activities .ui-tabs-block .ui-tabs #Checkout {
+	background:#EDFCE5;
+}
+div.summary-block h3 {
+	padding:10px 0 0 12px;
+}
+dl.summary-list {
+	padding:10px 10px 0 2px;
+}
+dl.summary-list dt, dl.summary-list dd {
+	float:left;
+	padding:0 5px;
+}
+dl.summary-list dd {
+	color:#fff;
+	margin:0 5px 0 0;
+}
+dd.available-balance {
+	background:#4CB153;
+}
+dd.widthdraw-request {
+	background:#ff9f0c;
+}
+div.transaction-category div.radio {
+	border:1px solid #ddd;
+	padding: 5px 5px 3px;
+	margin: 0 0 10px;
+}
+
+div.admin-properties {
+	background:url("../img/common-sprite.png") repeat-y scroll left -240px transparent;
+	padding: 0 0 0 10px;
+}
+ol.photos-list li {
+	border: 1px solid #DDDDDD;
+	float: left;
+	height: 150px;
+	margin: 8px;
+	padding:10px 5px;
+	text-align: center;
+	width: 181px;
+}
+ol.photos-list li:hover {
+	border: 1px dashed #999;
+	background:#f1f1f1;
+}
+ol.photos-list li.notice-info {
+	border: medium none;
+	float: none;
+	height: auto;
+	padding: 0;
+	width: auto;
+}
+div#cboxLoadedContent {
+	height:auto !important;
+}
+div.date-time-block div.end-date-time-block div.time-desc {
+	margin:0 0 0 90px;
+}
+div.transection-date-time-block div.date-time div.time-desc, div.transection-date-time-block div.end-date-time-block div.time-desc {
+	margin:0 0 0 56px;
+}
+form#RequestAddForm div.end-date-time-block label, form#RequestEditForm div.end-date-time-block label, form#PropertyAddForm div.end-date-time-block label {
+	padding-left:0;
+}
+div.record-info span.active, h2.properties-title span {
+	vertical-align:middle;
+}
+form#RequestAddForm div.checkbox-right div.input label.am-small-19, form#PropertyAddForm div.checkbox-right div.input label.am-small-19 {
+	padding: 0 0 0 18px;
+}
+form#RequestAddForm div.input label.am-small-19, form#RequestEditForm div.input label.am-small-19, form#PropertyAddForm div.input label.am-small-19, form#PropertyEditForm div.input label.am-small-19 {
+	font-size:13px;
+}
+form#RequestAddForm div.end-date-time-block label, form#RequestEditForm div.end-date-time-block label, form#PropertyAddForm div.end-date-time-block label {
+	padding-left:0;
+}
+.ui-tabs div.friends-request {
+	padding:0 5px;
+}
+div.display-information {
+	border: 1px solid #CCCCCC;
+	margin:10px 0;
+	padding: 10px;
+}
+div.import-block form.normal {
+	padding:0 10px;
+}
+p.friends-info {
+	font-weight: bold;
+	padding: 0 0 10px;
+}
+div.properties-title-details {
+	width:175px;
+}
+div.properties-title-details p.title {
+	width:130px;
+}
+p.paypal-amount span {
+	padding: 0 0 0 2px;
+}
+p.paypal-amount span.paypal {
+	background:url("../img/common-sprite.png") no-repeat left -12366px;
+	margin: 2px 0 0 2px;
+	width: 35px;
+}
+h2.paypal-heading span.paypal-icon {
+	background:url("../img/common-sprite.png") no-repeat left -12270px;
+	margin: 3px 5px 0 6px;
+	width:75px;
+}
+div.side2 span.side-info1, span.side-info1 {
+	width:auto;
+	margin:5px 0px 5px 10px;
+}
+div.host-panel-block .page-information {
+	padding-bottom:0;
+}
+span.hide-button, span.show-button {
+	float:right;
+	font-size:9px;
+	text-align:center;
+	cursor:pointer;
+	width:35px;
+	margin:0 11px 0 0;
+	color:#fff;
+}
+div.requests span.hide-button, span.show-button {
+	margin:0 25px 0 0;
+}
+span.hide-button {
+	background: url("../img/hide-button.png") no-repeat scroll -1px 2px;
+}
+span.show-button {
+	background: url("../img/show-button.png") no-repeat scroll -1px 2px;
+}
+span.dispute-open {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #FF0084;
+	color: #FF0084;
+	font-size: 10px;
+	left: -440px;
+	padding: 2px;
+	position: absolute;
+	top: -8px;
+	width: 320px;
+}
+dl.posted-list dt {
+	padding: 0 10px 0 10px;
+}
+/*order-page style*/
+div.login-right-block {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #DDDDDD;
+	font-size: 11px;
+	padding: 5px 5px 5px 12px;
+	position: absolute;
+	right: 27px;
+	top: -4px;
+	width: auto;
+	z-index: 555;
+}
+div.login-right-contact-block {
+	top: 77px;
+}
+div.login-right-block form.normal div.password input, div.login-right-block form.normal div.text input {
+	padding: 3px 2px;
+	width: 145px;
+	margin: 0 0 0 80px;
+}
+div.login-right-block form.normal div.input label {
+	width:60px;
+}
+div.login-right-block div.fromleft {
+	margin: 5px 0 5px 30px;
+}
+div.login-right-block h2 {
+	padding: 3px 0 7px;
+	font-size: 17px;
+}
+div.login-right-block div.padd-center {
+	padding: 0 5px 15px;
+}
+div.login-right-block .open-id-block h5 {
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+div.propertyFlags, div.requestFlags {
+	overflow:hidden;
+}
+div.user-order-block {
+	position:relative;
+}
+div.user-order-block div.main-center-block, div.user-order-block form.normal {
+	padding-top:0;
+}
+form#PropertyIndexForm div.checkbox label {
+	display:inline;
+}
+p.login-account {
+	text-align:right;
+	cursor:pointer;
+	color:#1E7FF4;
+}
+p.login-account:hover {
+	color:#ff0084;
+}
+span.currency {
+	font-size: 17px;
+	position: absolute;
+	text-align: right;
+	width: 86px;
+}
+dl.cancel-list dt {
+	width:138px;
+}
+.cb-table {
+	margin-bottom: 0.8em;
+	width: 100%;
+}
+.loading {
+	background: url("../img/loading.gif") no-repeat scroll left top transparent;
+	float: left;
+	height: 20px;
+	margin: 0 0 0 20px;
+	padding: 0 !important;
+	width: 20px;
+}
+form.language-form {
+	padding:0;
+	text-align:right;
+}
+form.language-form div.select, form.language-form div.select select {
+	margin:0;
+	padding:10px 0;
+}
+form.language-form div.select select {
+	width:116px;
+	padding: 2px;
+}
+form.language-form div.select label {
+	position:static;
+	padding: 3px 3px 0 0;
+}
+/*collection list style */
+ol.collection-list {
+	padding: 0 0 0 15px;
+}
+ol.collection-list li {
+	background:#fff;
+	border:1px solid #d7d7d7;
+	padding:10px;
+	float:left;
+	margin:0 12px 20px 0;
+	width:280px;
+}
+ol.collection-list li h3 {
+	border-top: 1px dashed #DDDDDD;
+	font-size: 17px;
+	margin: 2px 0 0;
+	padding: 5px 0;
+}
+div.collection-image {
+	height:185px;
+	width: 280px;
+}
+div.collection-image img {
+	border: 1px solid #DDDDDD;
+	margin: 0 3px 5px;
+	padding: 6px;
+}
+div.collection-top-block {
+	margin: 0 0 0 12px;
+}
+div.slider-side1 {
+	width:510px;
+	height:440px;
+	overflow:hidden;
+}
+div.slider-side1, div.gv-panel {
+	overflow:hidden;
+}
+div.slider-side2 dl.list {
+	margin-top:15px;
+}
+div.slider-side2 dl.list dd, div.slider-side2 dl.list dt {
+	width:40%;
+}
+div.slider-side2 ul.share-link1 {
+	margin: 13px 0 0 -19px;
+	width: 205px;
+}
+div.slider-side2 div.input input {
+	margin: 10px 5px 2px;
+	width: 357px;
+}
+div.collection-view-inner-block {
+	border-top: 1px solid #DDDDDD;
+	margin: 7px 0 0;
+	padding: 10px 15px;
+}
+div.collection-left-block {
+	margin:0px 0px 0px 10px;
+}
+form.collectioneditform div.checkbox-right {
+	height: 125px;
+	margin: 0 0 15px 170px;
+}
+.admin-sidetwo form.collectioneditform div.checkbox-right {
+	width:430px;
+}
+form.collectioneditform div.checkbox-right div.checkbox {
+	width:335px;
+}
+div.credit-payment-block h3 {
+	padding:15px 0;
+	font-size:18px;
+	font-weight:normal;
+}
+div.payment-add {
+	text-align:right;
+}
+div.cHead div.price-button input {
+	background:url("../img/user-sprite.png") no-repeat 0 -3073px;
+	border: medium none;
+	color: #333333;
+	font-size: 12px;
+	padding: 3px 0;
+	width: 116px;
+	cursor:pointer;
+}
+div.cHead div.price-button:hover input {
+	background:0 -3096px;
+	cursor:default;
+}
+div.cHead div.price-button input.disabled {
+	background:#ece9d8;
+	color:#888;
+}
+div.cHead div.price-button:hover input.disabled {
+	background:#ece9d8;
+	color:#888;
+}
+dl.collection-list {
+	width:65px;
+	position:relative;
+}
+dl.collection-list dt {
+	left:0;
+}
+
+a.add-new-card {
+	font-weight: bold;
+	margin: 0 0 0 192px;
+}
+
+/*cluster map*/
+#cluster_map {
+	width:924px;
+	height: 392px;
+}
+.calender-guest-list {
+	width:890px;
+	margin:0 auto;
+	line-height:19px;
+}
+.calender-guest-list-month {
+	float: left;
+	height: 215px;
+	padding: 0 7px;
+	width: 208px;
+}
+div.slider-side2 {
+	float:right;
+}
+div.block2-tm h4.slider-heading {
+	font-size: 12px;
+}
+div.full-calendar {
+	text-align:right;
+	font-size:9px;
+	padding: 0 10px 0 0;
+	line-height:14px;
+}
+div.full-calendar-block {
+	position:static !important;
+}
+div.full-calendar-block span.prev {
+	left: 15px;
+	top:50%;
+	background: url("../img/themes/dark/prev.png") no-repeat scroll left top transparent;
+	height: 22px;
+	width: 22px;
+}
+div.full-calendar-block span.next {
+	right: 15px;
+	top:50%;
+	background: url("../img/themes/dark/next.png") no-repeat scroll right top transparent;
+	height: 22px;
+	width: 22px;
+}
+div.flicker-images ul li {
+	float:left;
+	border:1px solid #ddd;
+	padding:3px;
+	margin:5px 10px;
+}
+form.normal div.edit-ptofile-time-block label {
+	position:static;
+	float:left;
+}
+div.amenities-center {
+	padding-top:10px;
+}
+div.request-count-block, ol.myrequest-list div.city-price {
+	margin: 22px 0 0 0;
+}
+ul.global-links-r {
+    margin: 13px 0 0;
+	padding:0 5px;
+}
+div.section2 img.js-skip-big-gallery, div.slider-side1 img.js-skip-big-gallery {
+	width:515px;
+	height:350px;
+}
+div.section2 div.user-avatar img.js-skip-big-gallery, div.slider-side1 div.user-avatar img.js-skip-big-gallery {
+	width:30px;
+	height:30px;
+	margin: 0 0 0 10px;
+}
+p.js-date-picker-info {
+	margin: 5px 0;
+}
+div.show-calender {
+	font-size:10px;
+	text-align:right;
+	padding: 5px 10px 0 0;
+}
+div.show-calender span {
+	cursor:pointer;
+	color:#0063DC;
+}
+div.show-calender span.active {
+	color:#333333;
+	vertical-align: top;
+	font-size:10px;
+}
+div.timepicker {
+	background:url("../img/icon-timer.png") no-repeat 3px center;
+	padding:0 0 0 20px;
+}
+/*Static Page - Acceptable Use Policy style*/
+div.aup {
+	margin:0 0 0 10px;
+}
+div.aup ol li {
+	margin:10px 10px 10px 20px;
+}
+div.aup p {
+	margin:10px 10px 10px 0;
+}
+div.aup ol {
+	list-style-type:decimal;
+}
+form.normal div.radio-tabs-lblock div.error-message {
+	margin-left:0;
+}
+span.airbnb-logo {
+	display:inline-block;
+	background:url(../img/user-sprite.png) no-repeat 0 3px;
+	width:109px;
+	float:left;
+	height:45px;
+}
+div.properties-import table.list {
+	margin:0 auto;
+}
+div.properties-import div.padd-center {
+	padding-top:15px;
+}
+form#TransactionIndexForm {
+	position:relative;
+	z-index:2;
+}
+div.transactions {
+	z-index:0;
+}
+dl.success-rate-list {
+	position:relative;
+}
+div.secuirty-deposit {
+	padding: 2px 0 0 5px;
+	width:160px;
+}
+span.trips-price, span.deposite-info {
+	color:#B2B2B2;
+	font-size:9px;
+}
+div.social-networks-block span {
+	color:#869599;
+}
+ul.socila-users-list li {
+	border: 1px solid #DDDDDD;
+	float: left;
+	font-size: 10px;
+	height: 100px;
+	margin: 3px;
+	padding: 5px;
+	text-align: center;
+	width: 67px;
+}
+div.social-network-block h4 {
+	padding:8px 0 5px 8px;
+}
+div.social-network-block dl.network-level {
+	float:right;
+	margin:0;
+	height:auto;
+}
+div.social-network-block dl.network-level dd {
+	margin:4px 0 0 15px;
+}
+a.facebook-connect-link {
+	display:inline-block;
+	background:url("../img/common-sprite.png") no-repeat 0 -2875px;
+	width:160px;
+	height:25px;
+}
+div.social-networks-block {
+	margin:5px 0 0 0;
+}
+div.properties-side2 div.social-network-connect {
+	padding:0 5px;
+}
+span.warning {
+	background: #fff7c0 url(../img/common-sprite.png) no-repeat left -9567px;
+	padding:0 0 0 18px;
+	border:1px solid #ffd02a;
+	margin:3px 0;
+	border-width:1px 0;
+	color: #333132;
+}
+div.social-networks-block span.warning {
+	color: #333132;
+}
+div.users-social-networks {
+	background: none repeat scroll 0 0 #E7E7E7;
+	border: 1px solid #DEDEDE;
+	padding: 10px 10px 5px;
+}
+div.user-img-block-right h4 {
+	overflow:hidden;
+}
+/*my properties index page style*/
+div.properties-info-block h3 {
+	padding: 7px 0;
+	width:250px;
+}
+table.list td.properties-title, table.list th.properties-title {
+	text-align:left;
+	width:300px;
+	table-layout:fixed;
+}
+table.list th.properties-title {
+	background:#fff;
+	height:20px;
+}
+table.list th.properties-title-section div.table-select-block {
+	padding:0;
+	line-height:18px;
+}
+div.properties-action {
+	width:150px;
+}
+div.user-sidebar {
+	margin:0 0 0 20px;
+}
+div#users-change_password div.side2 {
+	width:205px;
+	margin:10px 0px 0px 10px;
+}
+div.properties-action-block {
+	padding:10px 0px 0px 0px;
+}
+table.properties-list tr.sub-title th {
+	padding:0px;
+	font-size:10px;
+	line-height:15px;
+}
+table.properties-list th {
+	padding:2px;
+}
+div.usernotification-block table.list {
+	margin:0 auto;
+}
+div.request-left {
+	width: 730px;
+}
+div.request-right {
+	width: 215px;
+	margin:0 0 0 5px;
+}
+div.property-share-results {
+	position:relative;
+}
+div.share-results-code {
+	position:absolute;
+	right: -4px;
+	top: 41px;
+	z-index:2;
+}
+div.share-results-code div.input {
+	background:url(../img/share-results-bg.png) repeat-x left top;
+	padding:5px;
+}
+div.share-results-code div.input input {
+	border:1px solid #ddd;
+	background:#fff;
+	padding:5px;
+	width: 270px;
+}
+span.share-close {
+	height:10px;
+	width:10px;
+	position:absolute;
+	background:url(../img/icon-close.png) no-repeat left top;
+	bottom: 1px;
+	right: 2px;
+	cursor:pointer;
+}
+/*page overrights class*/
+div#user_profiles-edit div.side2 {
+	width:220px;
+	margin:0px 0px 0px 10px;
+}
+#properties-view div.hovst-view-block dl.request-list1 {
+	width:122px;
+}
+#properties-view img.js-skip-big-gallery {
+	width:625px;
+}
+#users-add_to_wallet div.payments form.normal div.radio {
+	margin: 0 0 0 185px;
+}
+#users-add_to_wallet div.payments form.normal div.option-block div.radio {
+	margin: 0;
+}
+div#user_profiles-edit div.mapblock-info {
+	position:static;
+}
+div#user_profiles-edit div.mapblock-info {
+	position:static;
+}
+#user_profiles-edit form.normal, #user_profiles-edit fieldset {
+	padding-top:0;
+}
+#requests-add div.price-info-right {
+	padding:0 0 10px 0;
+}
+div#requests-index div.side2 span.info {
+	margin:0 0px 0px 10px;
+}
+#users-view .property-list .grid_8, #properties-view .property-list .grid_8 {
+	width:259px;
+}
+#user_profiles-edit div.padd-center {
+	padding:0 8px 15px;
+}
+#user_profiles-edit div.contact-details {
+	position:relative;
+}
+#properties-view div.request-index-block div.block1-cr, #properties-view div.request-index-block div.block1-cl, #properties-view div.request-index-blockdiv.block1-cr, #properties-view div.request-index-block div.block1-cm, #users-viewdiv.request-index-block div.block1-cl, #users-view div.request-index-blockdiv.block1-cr, #users-view div.request-index-block div.block1-cm {
+	background:none;
+	padding:0px;
+}
+#properties-view ol.property-list div.grid_10, #users-view ol.property-list div.grid_10, #payments-order div.payment-process-block div.grid_10 {
+	width:332px;
+}
+#properties-view ol.property-list .grid_9, #users-view ol.property-list .grid_9 {
+	width:266px;
+}
+div#properties-search div.main-content {
+	padding:0px 0px 20px 0px;
+}
+div#properties-search #footer, div#collections-index #footer {
+	background: none;
+}
+div#collections-index div.main-content {
+	width:auto;
+	padding:0;
+}
+#properties-search .footer-content {
+	padding:0 0 15px 0px;
+}
+div#properties-view #gallery {
+	margin: 0px auto;
+}
+div#properties-view div.side2 {
+	margin:-11px 0 0 4px;
+	width:277px;
+}
+/* ie7 hacks */
+*+html div#user_profiles-edit div.mapblock-info div.input input {
+	position:relative;
+}
+*+html dl.collection-list dt.cities {
+	left:45px;
+}
+/* user edit form blockss */
+.user-edit-form-block .submit-block {
+	margin:5px 0 5px 190px;
+}
