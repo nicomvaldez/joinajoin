@@ -1,0 +1,100 @@
+form.normal div.mapblock-info div.input label {
+	width: 140px;
+}
+
+form.normal div.mapblock-info div.input label.overlabel-apply {
+	width: 312px;
+}
+
+form.normal div.input label{
+	margin-left: 20px;
+}
+
+div.mapblock-info {
+	background: url("../img/icon-location.png") no-repeat 5px 11px;
+	padding: 0 0 0 25px;
+	z-index: 2;
+}
+form#UserProfileEditForm div.mapblock-info div.text input {
+	margin:0 0 0 160px;
+}
+.ui-autocomplete ul, form.property-view-form div.radio-price-block label, div.edit-info-block, .js .hide, h5.hidden-info, #properties-view div.properties-side1 div.block1-tl, #properties-view div.request-index-block div.block2-bl, #properties-view div.request-index-blockdiv.block1-tl, #users-view div.request-index-block div.block1-tl, #users-viewdiv.request-index-block div.block2-bl, form.normal div.checkbox-right div.input label, div#mapblock, div.sub-menu-block, div.paging span.prev, div.paging span.next {
+	display: none;
+}
+div#mapblock .ui-autocomplete {
+
+	min-height:238px;
+
+	left:0px !important;
+
+	width:212px !important;
+
+	Z-index:4 !important;
+
+	top:0px !important;
+
+	border-right:1px solid #ddd;
+
+}
+div#mapblock {
+
+	background:#EEE;
+
+	border:1px solid #DDD;
+
+	left:0;
+
+	height:271px;
+
+	padding:0 0 0 22px;
+
+	width:425px;
+
+	top:46px;
+
+	z-index:100000;
+
+}
+div.padd-center div#mapblock {
+
+	left:190px;
+
+}
+div#user_profiles-edit div.mapblock-info {
+
+	position:static;
+
+}
+
+div#user_profiles-edit div.mapblock-info {
+
+	position:static;
+
+}
+*+html div#user_profiles-edit div.mapblock-info div.input input {
+
+	position:relative;
+
+}
+form.search-form div.mapblock-info {
+
+	float:left;
+
+}
+form#TransactionAdminIndexForm div.mapblock-info {
+
+	float:left;
+
+}
+
+form#TransactionAdminIndexForm div.mapblock-info div.autocompleteblock ul.ui-autocomplete {
+
+	left:8px !important;
+
+}
+
+
+
+
+
+
